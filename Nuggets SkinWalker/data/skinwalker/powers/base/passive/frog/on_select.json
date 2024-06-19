@@ -17,5 +17,14 @@
             "operation": "set",
             "change": 200
         }
+    },
+    "skin_remove": {
+        "type": "apoli:action_on_callback",
+        "entity_action_gained": {
+            "type": "origins:change_resource",
+            "operation": "add",
+            "resource": "skinwalker:base/kills_frog",
+            "change": -20
+        }
     }
 }

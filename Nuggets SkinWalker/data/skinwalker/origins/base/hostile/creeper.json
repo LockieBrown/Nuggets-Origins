@@ -1,6 +1,6 @@
 {
 	"powers": [
-		"skinwalker:base/on_select",
+		"skinwalker:base/hostile/creeper/on_select",
 		"skinwalker:base/hostile/creeper/auto_explode",
 		"skinwalker:base/hostile/creeper/colour",
 		"skinwalker:base/hostile/creeper/explode",

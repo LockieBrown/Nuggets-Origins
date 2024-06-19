@@ -1,6 +1,6 @@
 {
 	"powers": [
-		"skinwalker:base/on_select",
+		"skinwalker:base/neutral/cave_spider/on_select",
 		"skinwalker:base/neutral/cave_spider/colour",
 		"skinwalker:base/neutral/cave_spider/health",
 		"skinwalker:base/neutral/cave_spider/hostile",

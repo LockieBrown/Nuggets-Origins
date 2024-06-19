@@ -1,6 +1,6 @@
 {
 	"powers": [
-		"skinwalker:base/on_select",
+		"skinwalker:base/passive/bat/on_select",
 		"skinwalker:base/passive/bat/blindness",
 		"skinwalker:base/passive/bat/colour",
 		"skinwalker:base/passive/bat/health",

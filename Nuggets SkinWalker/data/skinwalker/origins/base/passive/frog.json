@@ -1,6 +1,6 @@
 {
 	"powers": [
-		"skinwalker:base/on_select",
+		"skinwalker:base/passive/frog/on_select",
 		"skinwalker:base/passive/frog/colour",
 		"skinwalker:base/passive/frog/effect",
 		"skinwalker:base/passive/frog/health",

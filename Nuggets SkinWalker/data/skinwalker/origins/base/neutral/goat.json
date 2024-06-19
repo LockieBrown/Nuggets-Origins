@@ -1,6 +1,6 @@
 {
 	"powers": [
-		"skinwalker:base/on_select",
+		"skinwalker:base/neutral/goat/on_select",
 		"skinwalker:base/neutral/goat/colour",
 		"skinwalker:base/neutral/goat/fire_damage",
 		"skinwalker:base/neutral/goat/health",

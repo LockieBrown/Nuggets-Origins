@@ -6,7 +6,7 @@
         "skinwalker:base/passive/chicken/size",
         "skinwalker:base/passive/chicken/slowfalling",
 		"skinwalker:base/passive/chicken/weak_arms",
-		"skinwalker:base/on_select"
+		"skinwalker:base/passive/chicken/on_select"
     ],
     "icon": "minecraft:feather",
     "order": 10,

@@ -250,6 +250,27 @@
             "origins": [
                 "skinwalker:base/hostile/magma_cube"
             ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "skinwalker:base/skinwalker_base",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "skinwalker:base/kills_slime",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    }
+                ]
+            },
+            "origins": [
+                "skinwalker:base/hostile/slime"
+            ]
         }
     ]
 }

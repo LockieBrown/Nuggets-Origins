@@ -1,6 +1,6 @@
 {
 	"powers": [
-		"skinwalker:base/on_select",
+		"skinwalker:base/passive/allay/on_select",
 		"skinwalker:base/passive/allay/colour",
 		"skinwalker:base/passive/allay/health",
 		"skinwalker:base/passive/allay/music_buff",

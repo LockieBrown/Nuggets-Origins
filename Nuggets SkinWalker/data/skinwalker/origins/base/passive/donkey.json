@@ -4,7 +4,7 @@
         "skinwalker:base/passive/donkey/size",
         "skinwalker:base/passive/donkey/slowness",
         "skinwalker:base/passive/donkey/storage",
-		"skinwalker:base/on_select"
+		"skinwalker:base/passive/donkey/on_select"
 	],
 	"icon": "minecraft:leather",
 	"order": 10,

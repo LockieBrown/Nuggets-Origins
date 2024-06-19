@@ -1,0 +1,30 @@
+{
+    "type": "origins:multiple",
+    "has_origin": {
+        "type": "origins:action_on_callback",
+        "entity_action_gained": {
+            "type": "origins:change_resource",
+            "resource": "skinwalker:base/has_origin",
+            "operation": "set",
+            "change": 1
+        }
+    },
+    "transform": {
+        "type": "origins:action_on_callback",
+        "entity_action_gained": {
+            "type": "origins:change_resource",
+            "resource": "skinwalker:base/choosing_is_transforming",
+            "operation": "set",
+            "change": 200
+        }
+    },
+    "skin_remove": {
+        "type": "apoli:action_on_callback",
+        "entity_action_gained": {
+            "type": "origins:change_resource",
+            "operation": "add",
+            "resource": "skinwalker:base/kills_",
+            "change": -20
+        }
+    }
+}
