@@ -3,11 +3,11 @@
     "entity_action": {
         "type": "origins:add_velocity",
         "space": "world",
-        "y": 0.05
+        "y": 0.15
     },
     "condition": {
         "type": "origins:fall_distance",
         "comparison": ">",
-        "compare_to": 1
+        "compare_to": 2
     }
 }
