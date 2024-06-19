@@ -1,0 +1,19 @@
+{
+	"type": "origins:active_self",
+	"key": {
+		"key": "key.jump"
+	},
+	"entity_action": {
+		"type": "origins:apply_effect",
+		"effects": [
+			{
+				"effect": "minecraft:slow_falling",
+				"duration": 20,
+				"amplifier": 1,
+				"is_ambient": false,
+				"show_particles": false,
+				"show_icon": true
+			}
+		]
+	}
+}

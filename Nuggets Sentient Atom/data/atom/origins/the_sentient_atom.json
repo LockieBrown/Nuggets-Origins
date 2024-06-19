@@ -1,0 +1,28 @@
+{
+	"powers": [
+		"atom:sentient_atom/arrow_zap",
+		"atom:sentient_atom/base_attck",
+		"atom:sentient_atom/modify_falling",
+		"atom:sentient_atom/modify_jump",
+		"atom:sentient_atom/size",
+		"atom:sentient_atom/transform_to_block",
+		"atom:sentient_atom/nuke",
+		"atom:sentient_atom/phase",
+		"atom:sentient_atom/phase_timer",
+		"atom:sentient_atom/instability",
+		"atom:sentient_atom/knockback",
+		"atom:sentient_atom/base_health"
+	],
+	"icon": "minecraft:ghast_tear",
+	"order": 10,
+	"impact": 3,
+	"name": "The Sentient Atom",
+	"description": "You are an atom that has become sentient",
+	"upgrades": [
+		{
+			"condition": "minecraft:end/dragon_egg",
+			"origin": "atom:evolved_sentient_atom",
+			"announcement": "after killing the dragon you have got good"
+		}
+	]
+}

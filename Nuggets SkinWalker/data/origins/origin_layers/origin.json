@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "origins": [
+    "skinwalker:base/skinwalker_base",
+    "skinwalker:evolved/skinwalker_base"
+  ]
+}

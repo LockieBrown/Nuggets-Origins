@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"skinwalker:base/on_select",
+		"skinwalker:base/passive/frog/colour",
+		"skinwalker:base/passive/frog/effect",
+		"skinwalker:base/passive/frog/health",
+		"skinwalker:base/passive/frog/pull",
+		"skinwalker:base/passive/frog/size",
+		"skinwalker:base/passive/frog/water_movement"
+	],
+	"icon": "minecraft:lily_pad",
+	"order": 10,
+	"impact": 2,
+	"name": "Frog",
+	"description": "Frog"
+}

@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"skinwalker:base/on_select",
+		"skinwalker:base/hostile/magma_cube/colour",
+		"skinwalker:base/hostile/magma_cube/effect",
+		"skinwalker:base/hostile/magma_cube/health",
+		"skinwalker:base/hostile/magma_cube/size",
+		"skinwalker:base/hostile/magma_cube/water_damage"
+	],
+	"icon": "minecraft:magma_cream",
+	"order": 10,
+	"impact": 3,
+	"name": "Magma cube",
+	"description": "magma cube"
+}

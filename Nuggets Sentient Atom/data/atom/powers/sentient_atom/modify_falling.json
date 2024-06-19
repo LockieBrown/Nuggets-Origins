@@ -1,0 +1,20 @@
+{
+    "type": "origins:multiple",
+    "fast_falling": {
+        "type": "origins:modify_falling",
+        "velocity": 0.08,
+        "take_fall_damage": false,
+        "condition": {
+            "type": "origins:sneaking"
+        }
+    },
+    "slow_falling": {
+        "type": "origins:modify_falling",
+        "velocity": 0.01,
+        "take_fall_damage": false,
+        "condition": {
+            "type": "origins:sneaking",
+            "inverted": true
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+	"type": "origins:fire_projectile",
+	"entity_type": "minecraft:arrow",
+	"cooldown": 100,
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/resource_bar.png",
+		"bar_index": 2
+	},
+	"tag": "{pickup:0b,CustomPotionEffects:[{Id:2,Amplifier:4,Duration:100},{Id:24,Amplifier:0,Duration:60}]}",
+	"key": {
+		"key": "key.origins.primary_active",
+		"continuous": true
+	}
+}

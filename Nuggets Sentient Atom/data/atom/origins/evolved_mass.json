@@ -1,0 +1,21 @@
+{
+	"powers": [
+		"atom:evolved_iron_mass/size",
+		"atom:evolved_iron_mass/res",
+		"atom:evolved_iron_mass/colour",
+		"atom:evolved_iron_mass/transform_to_atom",
+		"atom:evolved_iron_mass/knockback",
+		"atom:evolved_iron_mass/regen",
+		"atom:evolved_iron_mass/slowness",
+		"atom:evolved_iron_mass/modify_swim",
+		"atom:evolved_iron_mass/base_health",
+		"atom:evolved_iron_mass/corrosion",
+		"atom:evolved_iron_mass/shockwave",
+		"atom:evolved_iron_mass/modify_jump"
+	],
+	"icon": "minecraft:iron_block",
+	"order": 10,
+	"impact": 3,
+	"name": "Evolved Iron Mass",
+	"description": "An Evolved Atom that has absorbed a block of iron to become more resistant to damage"
+}

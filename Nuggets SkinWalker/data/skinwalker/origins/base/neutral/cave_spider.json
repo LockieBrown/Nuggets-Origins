@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"skinwalker:base/on_select",
+		"skinwalker:base/neutral/cave_spider/colour",
+		"skinwalker:base/neutral/cave_spider/health",
+		"skinwalker:base/neutral/cave_spider/hostile",
+		"skinwalker:base/neutral/cave_spider/size"
+	],
+	"icon": "minecraft:spider_eye",
+	"order": 10,
+	"impact": 3,
+	"name": "cave spider",
+	"description": "cave spider"
+}

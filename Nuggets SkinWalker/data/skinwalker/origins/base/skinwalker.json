@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"skinwalker:base/skin_walker/weak",
+		"skinwalker:base/skin_walker/fire_damage",
+		"skinwalker:base/skin_walker/restrict_armour",
+		"skinwalker:base/skin_walker/colour",
+		"skinwalker:base/skin_walker/size",
+		"skinwalker:base/skin_walker/slow",
+		"skinwalker:base/on_select"
+	],
+	"icon": "minecraft:leather",
+	"order": 10,
+	"impact": 3,
+	"name": "Skin Walker",
+	"description": "Your original form"
+}

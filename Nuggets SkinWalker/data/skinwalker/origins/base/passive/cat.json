@@ -1,0 +1,19 @@
+{
+	"powers": [
+		"skinwalker:base/on_select",
+		"skinwalker:base/passive/cat/colour",
+		"skinwalker:base/passive/cat/effect",
+		"skinwalker:base/passive/cat/health",
+		"skinwalker:base/passive/cat/no_fall",
+		"skinwalker:base/passive/cat/size",
+		"skinwalker:base/passive/cat/unluck",
+		"skinwalker:base/passive/cat/weak_arms",
+		"origins:scare_creepers",
+		"skinwalker:base/passive/cat/carnivore"
+	],
+	"icon": "minecraft:black_wool",
+	"order": 10,
+	"impact": 3,
+	"name": "Cat",
+	"description": "Cat"
+}

@@ -1,0 +1,23 @@
+{
+	"type": "origins:multiple",
+	"added": {
+		"type": "origins:action_on_callback",
+		"entity_action_added": {
+			"type": "origins:apply_effect",
+			"effects": [
+				{
+					"effect": "minecraft:slowness",
+					"amplifier": 1,
+					"duration": -1
+				}
+			]
+		}
+	},
+	"lost": {
+		"type": "origins:action_on_callback",
+		"entity_action_lost": {
+			"type": "origins:clear_effect",
+			"effect": "minecraft:slowness"
+		}
+	}
+}

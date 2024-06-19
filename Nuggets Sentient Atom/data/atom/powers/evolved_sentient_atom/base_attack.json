@@ -1,0 +1,10 @@
+{
+	"type": "origins:attribute",
+	"modifier": {
+		"attribute": "minecraft:generic.attack_damage",
+		"operation": "multiply_total",
+		"value": 0.75
+		},
+	"name": "Nano-scale",
+	"description": "due to your scale you are weaker and deal 75% the normal amount of damage"
+}

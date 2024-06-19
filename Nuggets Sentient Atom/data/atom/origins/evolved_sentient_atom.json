@@ -1,0 +1,21 @@
+{
+	"powers": [
+		"atom:evolved_sentient_atom/arrow_zap",
+		"atom:evolved_sentient_atom/base_attack",
+		"atom:evolved_sentient_atom/modify_falling",
+		"atom:evolved_sentient_atom/modify_jump",
+		"atom:evolved_sentient_atom/size",
+		"atom:evolved_sentient_atom/transform_to_block",
+		"atom:evolved_sentient_atom/nuke",
+		"atom:evolved_sentient_atom/phase",
+		"atom:evolved_sentient_atom/phase_timer",
+		"atom:evolved_sentient_atom/knockback",
+		"atom:evolved_sentient_atom/base_health",
+		"atom:evolved_sentient_atom/absorption"
+	],
+	"icon": "minecraft:ghast_tear",
+	"order": 10,
+	"impact": 3,
+	"name": "Evolved Atom",
+	"description": "You are an atom that has become sentient"
+}

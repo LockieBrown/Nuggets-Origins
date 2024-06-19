@@ -1,0 +1,143 @@
+{
+	"type": "origins:multiple",
+	"chosen": {
+		"type": "origins:action_on_callback",
+		"entity_action_chosen": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:height 0.06 @s"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:width 0.06 @s"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:reach 0.7 @s"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "attribute @s minecraft:generic.movement_speed base set 0.08"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:visability 0.5 @s"
+				}
+			]
+		}
+	},
+	"respawn": {
+		"type": "origins:action_on_callback",
+		"entity_action_respawned": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:height 0.06 @s"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:width 0.06 @s"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:reach 0.7 @s"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "attribute @s minecraft:generic.movement_speed base set 0.08"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:visability 0.5 @s"
+				}
+			]
+		}
+	},
+	"added": {
+		"type": "origins:action_on_callback",
+		"entity_action_added": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:height 0.06 @s"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:width 0.06 @s"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:reach 0.7 @s"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "attribute @s minecraft:generic.movement_speed base set 0.08"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:visability 0.5 @s"
+				}
+			]
+		}
+	},
+	"lost": {
+		"type": "origins:action_on_callback",
+		"entity_action_lost": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:height 1 @s"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:width 1 @s"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:reach 1 @s"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "attribute @s minecraft:generic.movement_speed base set 0.1"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:visability 1 @s"
+				}
+			]
+		}
+	},
+	"gained": {
+		"type": "origins:action_on_callback",
+		"entity_action_gained": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:height 0.06 @s"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:width 0.06 @s"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:reach 0.7 @s"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "attribute @s minecraft:generic.movement_speed base set 0.08"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:visability 0.5 @s"
+				}
+			]
+		}
+	}
+}

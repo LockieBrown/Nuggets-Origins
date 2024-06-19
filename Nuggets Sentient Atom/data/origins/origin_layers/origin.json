@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "origins": [
+	"atom:the_sentient_atom",
+	"atom:iron_mass",
+	"atom:evolved_sentient_atom",
+	"atom:evolved_mass"
+  ]
+}

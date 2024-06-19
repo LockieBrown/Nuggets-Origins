@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"skinwalker:base/on_select"
+	],
+	"icon": "minecraft:item",
+	"order": 10,
+	"impact": 3,
+	"name": "name",
+	"description": "description"
+}

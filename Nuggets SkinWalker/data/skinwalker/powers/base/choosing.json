@@ -1,0 +1,87 @@
+{
+    "type": "origins:multiple",
+    "timer": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:spawn_particles",
+                    "particle": {
+                        "type": "minecraft:dust",
+                        "params": "0.3 0.3 0.3 1.5"
+                    },
+                    "count": 100,
+                    "force": false,
+                    "offset_y": 0.5,
+                    "spread": {
+                        "x": 0.8,
+                        "z": 0.8,
+                        "y": 0.6
+                    }
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_is_transforming",
+                    "operation": "add",
+                    "change": -1
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effects": [
+                        {
+                            "effect": "minecraft:slowness",
+                            "amplifier": 6,
+                            "duration": 5,
+                            "show_icon": false,
+                            "show_particles": false
+                        },
+                        {
+                            "effect": "minecraft:weakness",
+                            "amplifier": 6,
+                            "duration": 5,
+                            "show_icon": false,
+                            "show_particles": false
+                        }
+                    ]
+                }
+            ]
+        },
+        "interval": 1,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_is_transforming",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+    "no_jump": {
+        "type": "origins:modify_jump",
+        "modifier": {
+            "value": 0,
+            "operation": "set_total"  
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_is_transforming",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+    "is_transforming": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 200,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+            "bar_index": 1,
+            "condition": {
+                "type": "origins:resource",
+                "resource": "*:*_is_transforming",
+                "comparison": ">",
+                "compare_to": 0
+            }
+        }
+    }
+}

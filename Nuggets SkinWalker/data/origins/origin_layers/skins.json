@@ -1,0 +1,255 @@
+{
+    "order": 10,
+    "replace": true,
+    "name": "Skin",
+    "gui_title": {
+        "choose_origin": "Pick your skin to use",
+        "view_origin": "This is your currently selected skin"
+    },
+    "missing_name": "No Skins Yet",
+    "allow_random": true,
+    "default_origin": "skinwalker:base/skinwalker",
+    "origins": [
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "skinwalker:base/skinwalker_base",
+                "layer": "origins:origin"
+            },
+            "origins": [
+                "skinwalker:base/skinwalker"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "skinwalker:base/skinwalker_base",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "skinwalker:base/kills_allay",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    }
+                ]
+            },
+            "origins": [
+                "skinwalker:base/passive/allay"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "skinwalker:base/skinwalker_base",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "skinwalker:base/kills_bat",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    }
+                ]
+            },
+            "origins": [
+                "skinwalker:base/passive/bat"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "skinwalker:base/skinwalker_base",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "skinwalker:base/kills_cat",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    }
+                ]
+            },
+            "origins": [
+                "skinwalker:base/passive/cat"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "skinwalker:base/skinwalker_base",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "skinwalker:base/kills_chicken",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    }
+                ]
+            },
+            "origins": [
+                "skinwalker:base/passive/chicken"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "skinwalker:base/skinwalker_base",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "skinwalker:base/kills_donkey",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    }
+                ]
+            },
+            "origins": [
+                "skinwalker:base/passive/donkey"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "skinwalker:base/skinwalker_base",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "skinwalker:base/kills_frog",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    }
+                ]
+            },
+            "origins": [
+                "skinwalker:base/passive/frog"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "skinwalker:base/skinwalker_base",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "skinwalker:base/kills_bee",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    }
+                ]
+            },
+            "origins": [
+                "skinwalker:base/neutral/bee"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "skinwalker:base/skinwalker_base",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "skinwalker:base/kills_cave_spider",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    }
+                ]
+            },
+            "origins": [
+                "skinwalker:base/neutral/cave_spider"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "skinwalker:base/skinwalker_base",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "skinwalker:base/kills_goat",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    }
+                ]
+            },
+            "origins": [
+                "skinwalker:base/neutral/goat"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "skinwalker:base/skinwalker_base",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "skinwalker:base/kills_creeper",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    }
+                ]
+            },
+            "origins": [
+                "skinwalker:base/hostile/creeper"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "skinwalker:base/skinwalker_base",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "skinwalker:base/kills_magma_cube",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    }
+                ]
+            },
+            "origins": [
+                "skinwalker:base/hostile/magma_cube"
+            ]
+        }
+    ]
+}

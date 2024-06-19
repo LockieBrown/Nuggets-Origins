@@ -1,0 +1,37 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:choice",
+        "actions": [
+            {
+                "element": {
+                    "type":"origins:add_velocity",
+                    "z": 0.2
+                },
+                "weight": 1
+            },
+            {
+                "element": {
+                    "type":"origins:add_velocity",
+                    "z": -0.2
+                },
+                "weight": 1
+            },
+            {
+                "element": {
+                    "type":"origins:add_velocity",
+                    "x": 0.2
+                },
+                "weight": 1
+            },
+            {
+                "element": {
+                    "type":"origins:add_velocity",
+                    "x": -0.2
+                },
+                "weight": 1
+            }
+        ]
+    },
+    "interval": 3497
+}

@@ -1,0 +1,49 @@
+{
+	"type": "origins:multiple",
+	"chosen": {
+		"type": "origins:action_on_callback",
+		"entity_action_chosen": {
+			"type": "origins:apply_effect",
+			"effect": {
+				"effect": "minecraft:slowness",
+				"amplifier": 1,
+				"duration": -1,
+				"show_icon": false,
+				"show_particles": false
+			}
+		}
+	},
+	"respawn": {
+		"type": "origins:action_on_callback",
+		"entity_action_respawned": {
+			"type": "origins:apply_effect",
+			"effect": {
+				"effect": "minecraft:slowness",
+				"amplifier": 1,
+				"duration": -1,
+				"show_icon": false,
+				"show_particles": false
+			}
+		}
+	},
+	"added": {
+		"type": "origins:action_on_callback",
+		"entity_action_added": {
+			"type": "origins:apply_effect",
+			"effect": {
+				"effect": "minecraft:slowness",
+				"amplifier": 1,
+				"duration": -1,
+				"show_icon": false,
+				"show_particles": false
+			}
+		}
+	},
+	"lost": {
+		"type": "origins:action_on_callback",
+		"entity_action_lost": {
+			"type": "origins:clear_effect",
+      	  	"effect": "minecraft:slowness"
+		}
+	}
+}

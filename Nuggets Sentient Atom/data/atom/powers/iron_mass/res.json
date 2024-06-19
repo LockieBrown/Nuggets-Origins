@@ -1,0 +1,28 @@
+{
+	"type": "origins:multiple",
+	"added": {
+		"type": "origins:action_on_callback",
+		"entity_action_added": {
+			"type": "origins:apply_effect",
+			"effects": [
+				{
+					"effect": "minecraft:resistance",
+					"amplifier": 1,
+					"duration": -1
+				},
+				{
+					"effect": "minecraft:instant_health",
+					"amplifier": 5,
+					"duration": 20
+				}
+			]
+		}
+	},
+	"lost": {
+		"type": "origins:action_on_callback",
+		"entity_action_lost": {
+			"type": "origins:clear_effect",
+			"effect": "resistance"
+		}
+	}
+}

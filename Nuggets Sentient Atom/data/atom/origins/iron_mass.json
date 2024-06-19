@@ -1,0 +1,26 @@
+{
+	"powers": [
+		"atom:iron_mass/size",
+		"atom:iron_mass/res",
+		"atom:iron_mass/colour",
+		"atom:iron_mass/transform_to_atom",
+		"atom:iron_mass/knockback",
+		"atom:iron_mass/regen",
+		"atom:iron_mass/slowness",
+		"atom:iron_mass/modify_swim",
+		"atom:iron_mass/corrosion",
+		"atom:iron_mass/modify_jump"
+	],
+	"icon": "minecraft:iron_block",
+	"order": 10,
+	"impact": 3,
+	"name": "Iron Mass",
+	"description": "An Atom that has absorbed a block of iron to become more resistant to damage",
+	"upgrades": [
+		{
+			"condition": "minecraft:end/dragon_egg",
+			"origin": "atom:evolved_mass",
+			"announcement": "after killing the dragon you have got good"
+		}
+	]
+}

@@ -1,0 +1,64 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:if_else_list",
+        "actions": [
+            {
+                "condition": {
+                    "type": "origins:status_effect",
+                    "effect": "minecraft:absorption",
+                    "min_amplifier": 0,
+                    "max_amplifier": 2147483647,
+                    "inverted": true
+                },
+                "action": {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:absorption",
+                        "amplifier": 0,
+                        "duration": 1300,
+                        "show_particles": false,
+                        "show_icon": false
+                    }
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:status_effect",
+                    "effect": "minecraft:absorption",
+                    "min_amplifier": 0,
+                    "max_amplifier": 0
+                },
+                "action": {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:absorption",
+                        "amplifier": 1,
+                        "duration": 1300,
+                        "show_particles": false,
+                        "show_icon": false
+                    }
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:status_effect",
+                    "effect": "minecraft:absorption",
+                    "min_amplifier": 1,
+                    "max_amplifier": 1
+                },
+                "action": {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:absorption",
+                        "amplifier": 2,
+                        "duration": 1300,
+                        "show_particles": false,
+                        "show_icon": false
+                    }
+                }
+            }
+        ]
+    },
+    "interval": 1200
+}

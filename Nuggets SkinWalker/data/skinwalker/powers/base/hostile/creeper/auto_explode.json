@@ -1,0 +1,35 @@
+{
+    "type": "origins:action_when_damage_taken",
+    "damage_condition": {
+        "type": "apoli:in_tag",
+        "tag": "is_fire"
+    },
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:explode",
+                "power": 5,
+                "destruction_type": "none",
+                "damage_self": false,
+                "create_fire": false
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "origin set @s origins:skins skinwalker:base/skinwalker"
+            },
+            {
+                "type": "origins:spawn_particles",
+                "spread": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "count": 20,
+                "force": false,
+                "particle": "minecraft:explosion"
+            }
+        ]
+    },
+    "cooldown": 0
+}

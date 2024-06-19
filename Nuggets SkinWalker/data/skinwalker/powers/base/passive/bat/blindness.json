@@ -1,0 +1,22 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": -5,
+    "max_stacks": 10,
+    "duration_per_stack": 50,
+    "tick_rate": 20,
+    "effects": [
+        {
+            "effect": "minecraft:blindness",
+            "show_particles": false,
+            "show_icon": false
+        },
+        {
+            "effect": "minecraft:nausea",
+            "show_icon": false,
+            "show_particles": false
+        }
+    ],
+    "condition": {
+        "type": "origins:exposed_to_sun"
+    }
+}

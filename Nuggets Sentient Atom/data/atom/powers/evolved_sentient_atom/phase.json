@@ -1,0 +1,62 @@
+{
+    "type": "origins:multiple",
+    "decrement": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "atom:evolved_sentient_atom/phase_timer",
+            "change": -1
+        }
+    },
+    "activate": {
+        "type": "origins:active_self",
+        "cooldown": 360,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "atom:evolved_sentient_atom/phase_timer",
+            "change": 120
+        },
+        "hud_render": {
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+			"bar_index": 16,
+            "should_render": true,
+			"condition": {
+				"type": "origins:resource",
+				"resource": "atom:evolved_sentient_atom/phase_timer",
+				"comparison": "==",
+				"compare_to": 0
+			}
+        },
+        "key": {
+            "key": "key.origins.secondary_active"
+        }
+    },
+    "phasing": {
+        "type": "origins:phasing",
+        "blacklist": true,
+		"render_type": "blindness",
+		"view_distance": 2,
+		"block_condition": {
+			"type": "origins:in_tag",
+			"tag": "origins:unphasable"
+		},
+        "phase_down_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:sneaking"
+                },
+                {
+                    "type": "origins:on_block"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "atom:evolved_sentient_atom/phase_timer",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    }
+}
