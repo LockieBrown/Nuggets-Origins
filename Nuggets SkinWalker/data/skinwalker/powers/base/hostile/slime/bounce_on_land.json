@@ -1,0 +1,13 @@
+{
+    "type": "origins:action_on_land",
+    "entity_action": {
+        "type": "origins:add_velocity",
+        "space": "world",
+        "y": 0.05
+    },
+    "condition": {
+        "type": "origins:fall_distance",
+        "comparison": ">",
+        "compare_to": 1
+    }
+}

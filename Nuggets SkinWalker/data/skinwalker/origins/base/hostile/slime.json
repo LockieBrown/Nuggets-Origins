@@ -6,7 +6,9 @@
 		"skinwalker:base/hostile/slime/health",
 		"skinwalker:base/hostile/slime/hostile",
 		"skinwalker:base/hostile/slime/on_select",
-		"skinwalker:base/hostile/slime/size"
+		"skinwalker:base/hostile/slime/size",
+		"skinwalker:base/hostile/slime/fall_damage",
+		"skinwalker:base/hostile/slime/bounce_on_land"
 	],
 	"icon": "minecraft:slime_block",
 	"order": 10,
