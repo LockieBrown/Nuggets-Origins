@@ -1,0 +1,13 @@
+{
+	"powers": [
+        "skinwalker:base/passive/dolphin/colour",
+        "skinwalker:base/passive/dolphin/size",
+        "skinwalker:base/passive/dolphin/health",
+		"skinwalker:base/passive/dolphin/on_select"
+	],
+	"icon": "minecraft:barrier",
+	"order": 10,
+	"impact": 2,
+	"name": "Dolphin",
+	"description": "A form of the skinwalker using a dolphin's skin"
+}
