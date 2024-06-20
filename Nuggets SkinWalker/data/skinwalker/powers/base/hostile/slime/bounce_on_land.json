@@ -2,8 +2,7 @@
     "type": "origins:action_on_land",
     "entity_action": {
         "type": "origins:add_velocity",
-        "y": 10,
-        "set": true
+        "y": 0.7
     },
     "condition": {
         "type": "origins:fall_distance",
