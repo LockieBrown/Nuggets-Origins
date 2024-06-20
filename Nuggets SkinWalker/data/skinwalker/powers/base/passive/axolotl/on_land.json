@@ -1,0 +1,29 @@
+{
+    "type": "origins:stacking_status_effect",
+    "duration_per_stack": 10,
+    "min_stacks": -5,
+    "max_stacks": 6,
+    "effects": [
+        {
+            "effect": "minecraft:slowness",
+            "amplifier": 0,
+            "duration": 30,
+            "is_ambient": true
+        },
+        {
+            "effect": "minecraft:blindness",
+            "amplifier": 0,
+            "duration": 30,
+            "is_ambient": true
+        }
+    ],
+    "tick_rate": 10,
+    "condition": {
+        "type": "origins:fluid",
+        "fluid_condition": {
+            "type": "origins:in_tag",
+            "tag": "minecraft:water"
+        },
+        "inverted": true
+    }
+}
