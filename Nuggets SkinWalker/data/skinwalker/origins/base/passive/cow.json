@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "skinwalker:base/passive/cow/health",
+        "skinwalker:base/passive/cow/colour",
+        "skinwalker:base/passive/cow/size",
+		"skinwalker:base/passive/cow/on_select"
+    ],
+    "icon": "minecraft:milk_bucket",
+    "order": 10,
+    "impact": 1,
+    "name": "Cow",
+    "description": "you are a cow"
+}
