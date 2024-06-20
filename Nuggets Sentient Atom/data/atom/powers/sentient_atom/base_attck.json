@@ -3,8 +3,8 @@
 	"modifier": {
 		"attribute": "minecraft:generic.attack_damage",
 		"operation": "multiply_total",
-		"value": 0.5
+		"value": 2
 		},
-	"name": "Nano-scale",
-	"description": "due to your scale you are weaker and deal half the normal amount of damage"
+	"name": "Atom-Splitting",
+	"description": "You can split atoms, causing you to deal double damage"
 }

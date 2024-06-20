@@ -10,8 +10,7 @@
 		"atom:evolved_iron_mass/modify_swim",
 		"atom:evolved_iron_mass/base_health",
 		"atom:evolved_iron_mass/corrosion",
-		"atom:evolved_iron_mass/shockwave",
-		"atom:evolved_iron_mass/modify_jump"
+		"atom:evolved_iron_mass/shockwave"
 	],
 	"icon": "minecraft:iron_block",
 	"order": 10,

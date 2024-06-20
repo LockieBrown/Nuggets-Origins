@@ -3,8 +3,8 @@
 	"modifier": {
 		"attribute": "minecraft:generic.attack_damage",
 		"operation": "multiply_total",
-		"value": 0.75
+		"value": 2.5
 		},
-	"name": "Nano-scale",
-	"description": "due to your scale you are weaker and deal 75% the normal amount of damage"
+	"name": "Atom-Spiltting",
+	"description": "You can deal more demgogroradage"
 }

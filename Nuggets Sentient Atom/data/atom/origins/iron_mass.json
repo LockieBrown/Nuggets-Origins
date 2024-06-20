@@ -8,8 +8,7 @@
 		"atom:iron_mass/regen",
 		"atom:iron_mass/slowness",
 		"atom:iron_mass/modify_swim",
-		"atom:iron_mass/corrosion",
-		"atom:iron_mass/modify_jump"
+		"atom:iron_mass/corrosion"
 	],
 	"icon": "minecraft:iron_block",
 	"order": 10,
