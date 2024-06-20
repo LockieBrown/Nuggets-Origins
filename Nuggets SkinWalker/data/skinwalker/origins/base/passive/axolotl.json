@@ -1,0 +1,12 @@
+{
+	"powers": [
+		"skinwalker:base/passive/axolotl/colour",
+		"skinwalker:base/passive/axolotl/health",
+        "skinwalker:base/passive/axolotl/on_select"
+	],
+	"icon": "minecraft:item",
+	"order": 10,
+	"impact": 3,
+	"name": "name",
+	"description": "description"
+}
