@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "skinwalker:base/passive/cod/health",
+        "skinwalker:base/passive/cod/colour",
+        "skinwalker:base/passive/cod/size",
+		"skinwalker:base/passive/cod/on_select"
+    ],
+    "icon": "minecraft:cod",
+    "order": 10,
+    "impact": 1,
+    "name": "Cod",
+    "description": "you are a cod"
+}
