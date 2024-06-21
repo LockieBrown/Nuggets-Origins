@@ -3,7 +3,9 @@
         "skinwalker:base/passive/cow/health",
         "skinwalker:base/passive/cow/colour",
         "skinwalker:base/passive/cow/size",
-		"skinwalker:base/passive/cow/on_select"
+		"skinwalker:base/passive/cow/on_select",
+        "skinwalker:base/passive/cow/milkable",
+        "skinwalker:base/passive/cow/weak_arms"
     ],
     "icon": "minecraft:milk_bucket",
     "order": 10,
