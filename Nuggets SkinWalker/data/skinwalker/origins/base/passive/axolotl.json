@@ -5,11 +5,13 @@
         "skinwalker:base/passive/axolotl/on_select",
         "skinwalker:base/passive/axolotl/on_land",
         "skinwalker:base/passive/axolotl/size",
-        "skinwalker:base/passive/axolotl/water_movement"
+        "skinwalker:base/passive/axolotl/water_movement",
+		"skinwalker:base/passive/axolotl/regeneration",
+		"origins:water_breathing"
 	],
 	"icon": "minecraft:axolotl_bucket",
 	"order": 10,
 	"impact": 3,
-	"name": "name",
-	"description": "description"
+	"name": "Axolotl",
+	"description": "Axolotl"
 }
