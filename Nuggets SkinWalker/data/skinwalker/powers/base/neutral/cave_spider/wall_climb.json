@@ -1,0 +1,21 @@
+{
+    "type": "origins:climbing",
+    "condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:block_collision",
+                "offset_x": 0.01,
+                "offset_z": 0.01
+            },
+            {
+                "type": "origins:block_collision",
+                "offset_x": -0.01,
+                "offset_z": -0.01
+            }
+        ]
+    },
+    "allow_holding": true,
+    "name": "Wall Climbing",
+    "description": "Using the legs from the spiders skin, you can climb walls"
+}

@@ -1,9 +1,9 @@
 {
 	"powers": [
-        "skinwalker:base/passive/dolphin/colour",
-        "skinwalker:base/passive/dolphin/size",
-        "skinwalker:base/passive/dolphin/health",
-		"skinwalker:base/passive/dolphin/on_select"
+        "skinwalker:base/neutral/dolphin/colour",
+        "skinwalker:base/neutral/dolphin/size",
+        "skinwalker:base/neutral/dolphin/health",
+		"skinwalker:base/neutral/dolphin/on_select"
 	],
 	"icon": "minecraft:barrier",
 	"order": 10,
