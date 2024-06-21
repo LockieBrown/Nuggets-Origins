@@ -220,27 +220,6 @@
                     },
                     {
                         "type": "origins:resource",
-                        "resource": "skinwalker:base/kills_dolphin",
-                        "comparison": ">=",
-                        "compare_to": 20
-                    }
-                ]
-            },
-            "origins": [
-                "skinwalker:base/passive/dolphin"
-            ]
-        },
-        {
-            "condition": {
-                "type": "origins:and",
-                "conditions": [
-                    {
-                        "type": "origins:origin",
-                        "origin": "skinwalker:base/skinwalker_base",
-                        "layer": "origins:origin"
-                    },
-                    {
-                        "type": "origins:resource",
                         "resource": "skinwalker:base/kills_frog",
                         "comparison": ">=",
                         "compare_to": 20
@@ -291,6 +270,27 @@
             },
             "origins": [
                 "skinwalker:base/neutral/cave_spider"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "skinwalker:base/skinwalker_base",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "skinwalker:base/kills_dolphin",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    }
+                ]
+            },
+            "origins": [
+                "skinwalker:base/neutral/dolphin"
             ]
         },
         {

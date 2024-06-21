@@ -1,0 +1,26 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effects": [
+            {
+                "effect": "minecraft:slowness",
+                "amplifier": 1,
+                "duration": 100,
+                "is_ambient": true
+            },
+            {
+                "effect": "minecraft:weakness",
+                "amplifier": 1,
+                "duration": 100,
+                "is_ambient": true
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:exposed_to_sky"
+    },
+    "interval": 60,
+    "name": "Cave Dewller",
+    "description": "You are weak when not in a cave"
+}
