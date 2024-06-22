@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"skinwalker:base/passive/horse/diet",
+		"skinwalker:base/passive/horse/ride"
+	],
+	"icon": "minecraft:saddle",
+	"order": 10,
+	"impact": 2,
+	"name": "Horse",
+	"description": "Horse"
+}

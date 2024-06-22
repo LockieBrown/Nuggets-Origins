@@ -10,7 +10,7 @@
 	],
 	"icon": "minecraft:camel_spawn_egg",
 	"order": 10,
-	"impact": 3,
+	"impact": 2,
 	"name": "Camel",
 	"description": "Camel"
 }
