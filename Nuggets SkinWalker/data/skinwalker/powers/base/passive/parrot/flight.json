@@ -50,7 +50,10 @@
                 },
                 {
                     "type": "apugli:key_pressed",
-                    "key": "key.jump"
+                    "key": {
+                        "key": "key.jump",
+                        "continuous": true
+                    }
                 }
             ]
         }
@@ -62,6 +65,9 @@
             "resource": "*:*_bar",
             "operation": "add",
             "change": -1
+        },
+        "condition": {
+            "type": "origins:on_block"
         }
     }
 }
