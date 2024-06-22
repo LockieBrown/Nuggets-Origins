@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"skinwalker:base/passive/glow_squid/glowing"
+	],
+	"icon": "minecraft:glow_ink_sac",
+	"order": 10,
+	"impact": 3,
+	"name": "Glow Squid",
+	"description": "Shiny boi"
+}
