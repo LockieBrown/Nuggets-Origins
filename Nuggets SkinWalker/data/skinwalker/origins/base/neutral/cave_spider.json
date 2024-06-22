@@ -7,7 +7,8 @@
 		"skinwalker:base/neutral/cave_spider/size",
 		"skinwalker:base/neutral/cave_spider/poison",
 		"skinwalker:base/neutral/cave_spider/sky",
-		"skinwalker:base/neutral/cave_spider/wall_climb"
+		"skinwalker:base/neutral/cave_spider/wall_climb",
+		"skinwalker:base/neutral/cave_spider/shader"
 	],
 	"icon": "minecraft:spider_eye",
 	"order": 10,
