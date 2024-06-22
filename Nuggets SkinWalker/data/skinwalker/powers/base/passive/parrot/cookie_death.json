@@ -1,0 +1,17 @@
+{
+    "type": "origins:action_on_item_use",
+    "entity_action": {
+        "type": "origins:damage",
+        "amount": 100,
+        "damage_type": "minecraft:out_of_world"
+    },
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:cookie"
+        }
+    },
+    "trigger": "finish",
+    "name": "cookie pain",
+    "description": "pain bro"
+}

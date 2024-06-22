@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"skinwalker:base/pasive/parrot/cookie_damage",
+		"skinwalker:base/pasive/parrot/cookie_death",
+		"skinwalker:base/pasive/parrot/fire_damage",
+		"skinwalker:base/pasive/parrot/flight",
+		"skinwalker:base/pasive/parrot/ride"
+	],
+	"icon": "minecraft:feather",
+	"order": 10,
+	"impact": 3,
+	"name": "par-rot",
+	"description": "brain-rot"
+}
