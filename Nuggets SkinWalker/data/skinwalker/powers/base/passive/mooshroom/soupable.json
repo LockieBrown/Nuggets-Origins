@@ -12,7 +12,7 @@
 			},
 			{
 				"type": "origins:execute_command",
-				"command": "give @s minecraft:millk_bucket"
+				"command": "give @s minecraft:mushroom_stew"
 			}
 		]
 	},
@@ -30,7 +30,7 @@
         "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-                "item": "minecraft:bucket"
+                "item": "minecraft:bowl"
             }
         }
     }
