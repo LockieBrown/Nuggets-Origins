@@ -3,7 +3,10 @@
         "skinwalker:base/passive/cod/health",
         "skinwalker:base/passive/cod/colour",
         "skinwalker:base/passive/cod/size",
-		"skinwalker:base/passive/cod/on_select"
+		"skinwalker:base/passive/cod/on_select",
+        "origins:water_breathing",
+        "skinwalker:base/passive/cod/cold_ocean_buff",
+        "skinwalker:base/passive/cod/water_movement"
     ],
     "icon": "minecraft:cod",
     "order": 10,

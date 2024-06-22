@@ -1,0 +1,33 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effects": [
+            {
+                "effect": "minecraft:slowness",
+                "amplifier": 1,
+                "duration": 200,
+                "show_particles": false,
+                "show_icon": false
+            },
+            {
+                "effect": "minecraft:weakness",
+                "amplifier": 1,
+                "duration": 200,
+                "show_particles": false,
+                "show_icon": false
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:biome",
+        "condition": {
+            "type": "origins:temperature",
+            "compare_to": 0,
+            "comparison": "<="
+        }
+    },
+    "interval": 180,
+    "name": "weak cold",
+    "description": "weak cold"
+}
