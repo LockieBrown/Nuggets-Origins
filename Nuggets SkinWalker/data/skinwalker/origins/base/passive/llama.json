@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "skinwalker:base/passive/llama/effect",
+        "skinwalker:base/passive/llama/colour",
+        "skinwalker:base/passive/llama/size",
+		"skinwalker:base/passive/llama/on_select"
+    ],
+    "icon": "minecraft:barrier",
+    "order": 10,
+    "impact": 1,
+    "name": "Llama",
+    "description": "you are a llama"
+}

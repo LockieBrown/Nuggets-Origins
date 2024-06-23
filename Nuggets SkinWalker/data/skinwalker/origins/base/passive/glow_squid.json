@@ -1,5 +1,9 @@
 {
 	"powers": [
+		"skinwalker:base/passive/glow_squid/on_select",
+		"skinwalker:base/passive/glow_squid/colour",
+		"skinwalker:base/passive/glow_squid/health",
+		"skinwalker:base/passive/glow_squid/size",
 		"skinwalker:base/passive/glow_squid/glowing"
 	],
 	"icon": "minecraft:glow_ink_sac",
