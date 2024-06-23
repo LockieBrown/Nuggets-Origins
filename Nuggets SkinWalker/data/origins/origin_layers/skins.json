@@ -304,6 +304,27 @@
                     },
                     {
                         "type": "origins:resource",
+                        "resource": "skinwalker:base/kills_llama",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    }
+                ]
+            },
+            "origins": [
+                "skinwalker:base/passive/llama"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "skinwalker:base/skinwalker_base",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:resource",
                         "resource": "skinwalker:base/kills_mooshroom",
                         "comparison": ">=",
                         "compare_to": 20
