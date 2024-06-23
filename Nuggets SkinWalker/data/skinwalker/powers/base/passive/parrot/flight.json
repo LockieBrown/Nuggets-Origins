@@ -1,0 +1,73 @@
+{
+    "type": "origins:multiple",
+    "bar": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 400,
+        "hud_render": {
+            "should_render": true,
+            "bar_index": 4
+        }
+    },
+    "timer": {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "key": {
+            "key": "key.jump",
+            "continuous": true
+        },
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_bar",
+            "operation": "add",
+            "change": 1
+        }
+    },
+    "flight": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:levitation",
+                "amplifier": 1,
+                "duration": 5
+            }
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_bar",
+                    "comparison": ">",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_bar",
+                    "comparison": "<",
+                    "compare_to": 400
+                },
+                {
+                    "type": "apugli:key_pressed",
+                    "key": {
+                        "key": "key.jump",
+                        "continuous": true
+                    }
+                }
+            ]
+        }
+    },
+    "recharge": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_bar",
+            "operation": "add",
+            "change": -1
+        },
+        "condition": {
+            "type": "origins:on_block"
+        }
+    }
+}

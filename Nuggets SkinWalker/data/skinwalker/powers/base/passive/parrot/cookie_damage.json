@@ -1,0 +1,21 @@
+{
+    "type": "origins:modify_damage_taken",
+    "bientity_condition": {
+        "type": "origins:target_condition",
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:cookie"
+                }
+            }
+        }
+    },
+    "modifier": {
+        "operation": "set_total",
+        "value": 1000
+    },
+    "name": "COoKie daMagE"
+}

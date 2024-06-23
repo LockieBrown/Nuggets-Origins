@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"skinwalker:base/passive/ocelot/diet",
+		"origins:scare_creepers"
+	],
+	"icon": "minecraft:barrier",
+	"order": 10,
+	"impact": 2,
+	"name": "Ocelot",
+	"description": "Ocelot"
+}

@@ -1,0 +1,11 @@
+{
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+        "name": "weak when not in base form",
+        "operation": "multiply_base_additive",
+        "value": 1.5
+    },
+    "damage_condition": {
+        "type": "origins:fire"
+    }
+}
