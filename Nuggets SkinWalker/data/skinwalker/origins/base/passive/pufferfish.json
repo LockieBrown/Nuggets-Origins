@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "skinwalker:base/passive/pufferfish/health",
+        "skinwalker:base/passive/pufferfish/colour",
+        "skinwalker:base/passive/pufferfish/size",
+		"skinwalker:base/passive/pufferfish/on_select"
+    ],
+    "icon": "minecraft:pufferfish",
+    "order": 10,
+    "impact": 1,
+    "name": "pufferfish",
+    "description": "you are a pufferfish"
+}
