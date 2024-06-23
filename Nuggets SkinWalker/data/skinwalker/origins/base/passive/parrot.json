@@ -3,11 +3,16 @@
         "skinwalker:base/passive/parrot/health",
         "skinwalker:base/passive/parrot/colour",
         "skinwalker:base/passive/parrot/size",
-		"skinwalker:base/passive/parrot/on_select"
-    ],
-    "icon": "minecraft:barrier",
-    "order": 10,
-    "impact": 1,
-    "name": "Parrot",
-    "description": "you are a parrot"
+	    	"skinwalker:base/passive/parrot/on_select",
+        "skinwalker:base/passive/parrot/cookie_damage",
+        "skinwalker:base/passive/parrot/cookie_death",
+        "skinwalker:base/passive/parrot/fire_damage",
+	    	"skinwalker:base/passive/parrot/flight",
+	    	"skinwalker:base/passive/parrot/ride"
+	],
+	"icon": "minecraft:feather",
+	"order": 10,
+	"impact": 3,
+	"name": "par-rot",
+	"description": "brain-rot"
 }
