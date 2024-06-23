@@ -2,6 +2,9 @@
 	"powers": [
 		"skinwalker:base/passive/mule/ride",
 		"skinwalker:base/passive/mule/diet",
+		"skinwalker:base/passive/mule/on_select",
+		"skinwalker:base/passive/mule/effect",
+		"skinwalker:base/passive/mule/effect2",
 		"skinwalker:base/passive/mule/storage"
 	],
 	"icon": "minecraft:barrier",
