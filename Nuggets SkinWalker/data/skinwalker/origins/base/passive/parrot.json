@@ -1,10 +1,14 @@
 {
-	"powers": [
-		"skinwalker:base/passive/parrot/cookie_damage",
-		"skinwalker:base/passive/parrot/cookie_death",
-		"skinwalker:base/passive/parrot/fire_damage",
-		"skinwalker:base/passive/parrot/flight",
-		"skinwalker:base/passive/parrot/ride"
+    "powers": [
+        "skinwalker:base/passive/parrot/health",
+        "skinwalker:base/passive/parrot/colour",
+        "skinwalker:base/passive/parrot/size",
+	    	"skinwalker:base/passive/parrot/on_select",
+        "skinwalker:base/passive/parrot/cookie_damage",
+        "skinwalker:base/passive/parrot/cookie_death",
+        "skinwalker:base/passive/parrot/fire_damage",
+	    	"skinwalker:base/passive/parrot/flight",
+	    	"skinwalker:base/passive/parrot/ride"
 	],
 	"icon": "minecraft:feather",
 	"order": 10,
