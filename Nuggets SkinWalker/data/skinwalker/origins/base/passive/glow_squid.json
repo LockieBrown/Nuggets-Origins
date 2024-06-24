@@ -4,7 +4,10 @@
 		"skinwalker:base/passive/glow_squid/colour",
 		"skinwalker:base/passive/glow_squid/health",
 		"skinwalker:base/passive/glow_squid/size",
-		"skinwalker:base/passive/glow_squid/glowing"
+		"skinwalker:base/passive/glow_squid/glowing",
+        "skinwalker:base/passive/glow_squid/on_land",
+        "skinwalker:base/passive/glow_squid/water_movement",
+		"origins:water_breathing"
 	],
 	"icon": "minecraft:glow_ink_sac",
 	"order": 10,
