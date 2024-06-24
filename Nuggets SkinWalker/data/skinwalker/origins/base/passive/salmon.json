@@ -3,7 +3,11 @@
         "skinwalker:base/passive/salmon/health",
         "skinwalker:base/passive/salmon/colour",
         "skinwalker:base/passive/salmon/size",
-		"skinwalker:base/passive/salmon/on_select"
+		"skinwalker:base/passive/salmon/on_select",
+        "skinwalker:base/passive/salmon/on_land",
+        "skinwalker:base/passive/salmon/water_movement",
+		"origins:water_breathing",
+        "skinwalker:base/passive/salmon/on_land2"
     ],
     "icon": "minecraft:salmon",
     "order": 10,

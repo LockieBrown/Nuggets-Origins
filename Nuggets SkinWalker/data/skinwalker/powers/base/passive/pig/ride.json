@@ -3,7 +3,10 @@
     "entity_action": {
         "type": "origins:raycast",
         "bientity_action": {
-            "type": "origins:mount"
+            "type": "origins:invert",
+            "action": {
+                "type": "origins:mount"
+            }
         },
         "block": false,
         "entity": true,
@@ -17,12 +20,15 @@
             }
         }
     },
+    "condition": {
+        "type": "origins:sneaking"
+    },
     "cooldown": 30,
     "hud_render": {
         "should_render": false
     },
-    "name": "Passenger",
-    "description": "hold shift and ride people",
+    "name": "Rideable",
+    "description": "Rideable",
     "key": {
         "key": "key.origins.secondary_active"
     }

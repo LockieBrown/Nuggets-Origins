@@ -3,7 +3,10 @@
         "skinwalker:base/passive/pufferfish/health",
         "skinwalker:base/passive/pufferfish/colour",
         "skinwalker:base/passive/pufferfish/size",
-		"skinwalker:base/passive/pufferfish/on_select"
+		"skinwalker:base/passive/pufferfish/on_select",
+        "skinwalker:base/passive/pufferfish/on_land",
+        "skinwalker:base/passive/pufferfish/water_movement",
+		"origins:water_breathing"
     ],
     "icon": "minecraft:pufferfish",
     "order": 10,
