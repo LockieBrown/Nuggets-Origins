@@ -20,11 +20,11 @@
             "type": "origins:change_resource",
             "resource": "*:*_bar",
             "operation": "add",
-            "change": 1
+            "change": -1
         }
     },
     "flight": {
-        "type": "origins:action_over_time",
+        "type": "origins:active_self",
         "entity_action": {
             "type": "origins:apply_effect",
             "effect": {
@@ -47,15 +47,12 @@
                     "resource": "*:*_bar",
                     "comparison": "<",
                     "compare_to": 400
-                },
-                {
-                    "type": "apugli:key_pressed",
-                    "key": {
-                        "key": "key.jump",
-                        "continuous": true
-                    }
                 }
             ]
+        },
+        "key": {
+            "key": "key.jump",
+            "continuous": true
         }
     },
     "recharge": {
@@ -64,10 +61,11 @@
             "type": "origins:change_resource",
             "resource": "*:*_bar",
             "operation": "add",
-            "change": -1
+            "change": 3
         },
         "condition": {
             "type": "origins:on_block"
-        }
+        },
+        "interval": 1
     }
 }

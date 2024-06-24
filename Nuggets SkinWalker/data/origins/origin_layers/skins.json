@@ -94,6 +94,27 @@
                     },
                     {
                         "type": "origins:resource",
+                        "resource": "skinwalker:base/kills_camel",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    }
+                ]
+            },
+            "origins": [
+                "skinwalker:base/passive/camel"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "skinwalker:base/skinwalker_base",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:resource",
                         "resource": "skinwalker:base/kills_cat",
                         "comparison": ">=",
                         "compare_to": 20
@@ -178,27 +199,6 @@
                     },
                     {
                         "type": "origins:resource",
-                        "resource": "skinwalker:base/kills_camel",
-                        "comparison": ">=",
-                        "compare_to": 20
-                    }
-                ]
-            },
-            "origins": [
-                "skinwalker:base/passive/camel"
-            ]
-        },
-        {
-            "condition": {
-                "type": "origins:and",
-                "conditions": [
-                    {
-                        "type": "origins:origin",
-                        "origin": "skinwalker:base/skinwalker_base",
-                        "layer": "origins:origin"
-                    },
-                    {
-                        "type": "origins:resource",
                         "resource": "skinwalker:base/kills_donkey",
                         "comparison": ">=",
                         "compare_to": 20
@@ -207,27 +207,6 @@
             },
             "origins": [
                 "skinwalker:base/passive/donkey"
-            ]
-        },
-        {
-            "condition": {
-                "type": "origins:and",
-                "conditions": [
-                    {
-                        "type": "origins:origin",
-                        "origin": "skinwalker:base/skinwalker_base",
-                        "layer": "origins:origin"
-                    },
-                    {
-                        "type": "origins:resource",
-                        "resource": "skinwalker:base/kills_fox",
-                        "comparison": ">=",
-                        "compare_to": 20
-                    }
-                ]
-            },
-            "origins": [
-                "skinwalker:base/passive/fox"
             ]
         },
         {
@@ -304,27 +283,6 @@
                     },
                     {
                         "type": "origins:resource",
-                        "resource": "skinwalker:base/kills_llama",
-                        "comparison": ">=",
-                        "compare_to": 20
-                    }
-                ]
-            },
-            "origins": [
-                "skinwalker:base/passive/llama"
-            ]
-        },
-        {
-            "condition": {
-                "type": "origins:and",
-                "conditions": [
-                    {
-                        "type": "origins:origin",
-                        "origin": "skinwalker:base/skinwalker_base",
-                        "layer": "origins:origin"
-                    },
-                    {
-                        "type": "origins:resource",
                         "resource": "skinwalker:base/kills_mooshroom",
                         "comparison": ">=",
                         "compare_to": 20
@@ -333,153 +291,6 @@
             },
             "origins": [
                 "skinwalker:base/passive/mooshroom"
-            ]
-        },
-        {
-            "condition": {
-                "type": "origins:and",
-                "conditions": [
-                    {
-                        "type": "origins:origin",
-                        "origin": "skinwalker:base/skinwalker_base",
-                        "layer": "origins:origin"
-                    },
-                    {
-                        "type": "origins:resource",
-                        "resource": "skinwalker:base/kills_ocelot",
-                        "comparison": ">=",
-                        "compare_to": 20
-                    }
-                ]
-            },
-            "origins": [
-                "skinwalker:base/passive/ocelot"
-            ]
-        },
-        {
-            "condition": {
-                "type": "origins:and",
-                "conditions": [
-                    {
-                        "type": "origins:origin",
-                        "origin": "skinwalker:base/skinwalker_base",
-                        "layer": "origins:origin"
-                    },
-                    {
-                        "type": "origins:resource",
-                        "resource": "skinwalker:base/kills_panda",
-                        "comparison": ">=",
-                        "compare_to": 20
-                    }
-                ]
-            },
-            "origins": [
-                "skinwalker:base/passive/panda"
-            ]
-        },
-        {
-            "condition": {
-                "type": "origins:and",
-                "conditions": [
-                    {
-                        "type": "origins:origin",
-                        "origin": "skinwalker:base/skinwalker_base",
-                        "layer": "origins:origin"
-                    },
-                    {
-                        "type": "origins:resource",
-                        "resource": "skinwalker:base/kills_rabbit",
-                        "comparison": ">=",
-                        "compare_to": 20
-                    }
-                ]
-            },
-            "origins": [
-                "skinwalker:base/passive/rabbit"
-            ]
-        },
-        {
-            "condition": {
-                "type": "origins:and",
-                "conditions": [
-                    {
-                        "type": "origins:origin",
-                        "origin": "skinwalker:base/skinwalker_base",
-                        "layer": "origins:origin"
-                    },
-                    {
-                        "type": "origins:resource",
-                        "resource": "skinwalker:base/kills_salmon",
-                        "comparison": ">=",
-                        "compare_to": 20
-                    }
-                ]
-            },
-            "origins": [
-                "skinwalker:base/passive/salmon"
-            ]
-        },
-        {
-            "condition": {
-                "type": "origins:and",
-                "conditions": [
-                    {
-                        "type": "origins:origin",
-                        "origin": "skinwalker:base/skinwalker_base",
-                        "layer": "origins:origin"
-                    },
-                    {
-                        "type": "origins:resource",
-                        "resource": "skinwalker:base/kills_pufferfish",
-                        "comparison": ">=",
-                        "compare_to": 20
-                    }
-                ]
-            },
-            "origins": [
-                "skinwalker:base/passive/pufferfish"
-            ]
-        },
-        {
-            "condition": {
-                "type": "origins:and",
-                "conditions": [
-                    {
-                        "type": "origins:origin",
-                        "origin": "skinwalker:base/skinwalker_base",
-                        "layer": "origins:origin"
-                    },
-                    {
-                        "type": "origins:resource",
-                        "resource": "skinwalker:base/kills_pig",
-                        "comparison": ">=",
-                        "compare_to": 20
-                    }
-                ]
-            },
-            "origins": [
-                "skinwalker:base/passive/pig"
-            ]
-        },
-        {
-            "condition": {
-                "type": "origins:and",
-                "conditions": [
-                    {
-                        "type": "origins:origin",
-                        "origin": "skinwalker:base/skinwalker_base",
-                        "layer": "origins:origin"
-                    },
-                    {
-                        "type": "origins:resource",
-                        "resource": "skinwalker:base/kills_parrot",
-                        "comparison": ">=",
-                        "compare_to": 20
-                    }
-                ]
-            },
-            "origins": [
-                "skinwalker:base/passive/parrot"
             ]
         },
         {
@@ -556,6 +367,90 @@
                     },
                     {
                         "type": "origins:resource",
+                        "resource": "skinwalker:base/kills_pig",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    }
+                ]
+            },
+            "origins": [
+                "skinwalker:base/passive/pig"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "skinwalker:base/skinwalker_base",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "skinwalker:base/kills_pufferfish",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    }
+                ]
+            },
+            "origins": [
+                "skinwalker:base/passive/pufferfish"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "skinwalker:base/skinwalker_base",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "skinwalker:base/kills_rabbit",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    }
+                ]
+            },
+            "origins": [
+                "skinwalker:base/passive/rabbit"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "skinwalker:base/skinwalker_base",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "skinwalker:base/kills_salmon",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    }
+                ]
+            },
+            "origins": [
+                "skinwalker:base/passive/salmon"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "skinwalker:base/skinwalker_base",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:resource",
                         "resource": "skinwalker:base/kills_bee",
                         "comparison": ">=",
                         "compare_to": 20
@@ -619,6 +514,27 @@
                     },
                     {
                         "type": "origins:resource",
+                        "resource": "skinwalker:base/kills_fox",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    }
+                ]
+            },
+            "origins": [
+                "skinwalker:base/neutral/fox"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "skinwalker:base/skinwalker_base",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:resource",
                         "resource": "skinwalker:base/kills_goat",
                         "comparison": ">=",
                         "compare_to": 20
@@ -627,6 +543,48 @@
             },
             "origins": [
                 "skinwalker:base/neutral/goat"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "skinwalker:base/skinwalker_base",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "skinwalker:base/kills_llama",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    }
+                ]
+            },
+            "origins": [
+                "skinwalker:base/neutral/llama"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "skinwalker:base/skinwalker_base",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "skinwalker:base/kills_panda",
+                        "comparison": ">=",
+                        "compare_to": 20
+                    }
+                ]
+            },
+            "origins": [
+                "skinwalker:base/neutral/panda"
             ]
         },
         {
