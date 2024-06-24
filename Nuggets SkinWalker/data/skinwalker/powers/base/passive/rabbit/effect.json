@@ -3,9 +3,9 @@
     "entity_action_added": {
         "type": "origins:apply_effect",
         "effect": {
-            "effect": "minecraft:speed",
-            "amplifier": 0,
-            "duration": 0,
+            "effect": "minecraft:jump_boost",
+            "amplifier": 1,
+            "duration": 1,
             "show_icon": false,
             "show_particles": false
         }
@@ -13,9 +13,9 @@
     "entity_action_gained": {
         "type": "origins:apply_effect",
         "effect": {
-            "effect": "minecraft:speed",
-            "amplifier": 0,
-            "duration": 0,
+            "effect": "minecraft:jump_boost",
+            "amplifier": 1,
+            "duration": 1,
             "show_icon": false,
             "show_particles": false
         }
@@ -23,15 +23,15 @@
     "entity_action_chosen": {
         "type": "origins:apply_effect",
         "effect": {
-            "effect": "minecraft:speed",
-            "amplifier": 0,
-            "duration": 0,
+            "effect": "minecraft:jump_boost",
+            "amplifier": 1,
+            "duration": 1,
             "show_icon": false,
             "show_particles": false
         }
     },
     "entity_action_lost": {
         "type": "origins:clear_effect",
-        "effect": "minecraft:speed"
+        "effect": "minecraft:jump_boost"
     }
 }

@@ -1,8 +1,8 @@
 {
     "type": "origins:model_color",
-    "red": 0.2,
-    "green": 0.71,
-    "blue": 1,
+    "red": 0.59,
+    "green": 0.29,
+    "blue": 0,
     "alpha": 1,
     "name": "model colour",
     "description": "changes model colour"
