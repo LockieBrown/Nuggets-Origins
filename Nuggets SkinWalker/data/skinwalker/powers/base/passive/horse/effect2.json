@@ -4,8 +4,8 @@
         "type": "origins:apply_effect",
         "effect": {
             "effect": "minecraft:speed",
-            "amplifier": 0,
-            "duration": 0,
+            "amplifier": 1,
+            "duration": 1,
             "show_icon": false,
             "show_particles": false
         }
@@ -14,8 +14,8 @@
         "type": "origins:apply_effect",
         "effect": {
             "effect": "minecraft:speed",
-            "amplifier": 0,
-            "duration": 0,
+            "amplifier": 1,
+            "duration": 1,
             "show_icon": false,
             "show_particles": false
         }
@@ -24,8 +24,8 @@
         "type": "origins:apply_effect",
         "effect": {
             "effect": "minecraft:speed",
-            "amplifier": 0,
-            "duration": 0,
+            "amplifier": 1,
+            "duration": 1,
             "show_icon": false,
             "show_particles": false
         }
