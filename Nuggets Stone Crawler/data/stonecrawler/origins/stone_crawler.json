@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"stonecrawler:colour"
+	],
+	"icon": "minecraft:stone",
+	"order": 10,
+	"impact": 3,
+	"name": "Stone Crawler",
+	"description": "Rock and Stone"
+}
