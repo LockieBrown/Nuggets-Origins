@@ -4,8 +4,8 @@
   "has_precipitation": false,
   "creature_spawn_probability": 1,
   "effects": {
-    "sky_color": 9297,
-    "fog_color": 0,
+    "sky_color": 7746,
+    "fog_color": 7746,
     "water_color": 21125,
     "water_fog_color": 0,
     "grass_color": 1873794,
@@ -14,7 +14,7 @@
       "options": {
         "type": "minecraft:soul_fire_flame"
       },
-      "probability": 1
+      "probability": 0.001
     }
   },
   "spawners": {},
