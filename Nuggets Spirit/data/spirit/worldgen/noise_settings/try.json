@@ -64,10 +64,17 @@
                         "argument2": {
                           "type": "minecraft:add",
                           "argument1": {
-                            "type": "minecraft:noise",
-                            "noise": "minecraft:cave_cheese",
-                            "xz_scale": 1.5,
-                            "y_scale": 0.1
+                            "type": "minecraft:cache_2d",
+                            "argument": {
+                              "type": "minecraft:mul",
+                              "argument1": -1,
+                              "argument2": {
+                                "noise": "minecraft:continentalness_large",
+                                "xz_scale": 0.5,
+                                "y_scale": 1,
+                                "type": "minecraft:noise"
+                              }
+                            }
                           },
                           "argument2": "minecraft:end/base_3d_noise"
                         }

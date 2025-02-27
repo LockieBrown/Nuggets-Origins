@@ -2,13 +2,20 @@
   "temperature": 0,
   "downfall": 0,
   "has_precipitation": false,
+  "creature_spawn_probability": 1,
   "effects": {
-    "sky_color": 220796,
-    "fog_color": 20833,
-    "water_color": 1364658,
-    "water_fog_color": 15949,
-    "grass_color": 7200664,
-    "foliage_color": 4571353
+    "sky_color": 9297,
+    "fog_color": 0,
+    "water_color": 21125,
+    "water_fog_color": 0,
+    "grass_color": 1873794,
+    "foliage_color": 1873794,
+    "particle": {
+      "options": {
+        "type": "minecraft:soul_fire_flame"
+      },
+      "probability": 1
+    }
   },
   "spawners": {},
   "spawn_costs": {},
