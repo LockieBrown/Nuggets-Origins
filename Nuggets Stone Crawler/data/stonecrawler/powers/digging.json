@@ -1,0 +1,28 @@
+{
+    "type": "origins:multiple",
+    "toggle":  {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": {
+            "key": "key.origins.primary_active"
+        }
+    },
+    "phasing": {
+        "type": "origins:phasing",
+        "blacklist": true,
+        "render_type": "remove_blocks",
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "origins:unphasable"
+        }
+    },
+    "flight": {
+        "type": "origins:creative_flight",
+        "condition": {
+            "type": "origins:block_collision",
+            "offset_x": 0.1,
+            "offset_y": 0.1,
+            "offset_z": 0.1
+        }
+    }
+}
