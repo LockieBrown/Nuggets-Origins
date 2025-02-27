@@ -1,0 +1,12 @@
+{
+	"powers": [
+		"spirit:energy",
+		"spirit:spiritualhealing",
+		"spirit:charge"
+	],
+	"icon": "minecraft:light_blue_stained_glass",
+	"order": 10,
+	"impact": 3,
+	"name": "Spirit",
+	"description": "some chill guy"
+}

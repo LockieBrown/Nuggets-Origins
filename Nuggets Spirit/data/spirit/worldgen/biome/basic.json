@@ -1,0 +1,35 @@
+{
+  "temperature": 0,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 19814,
+    "fog_color": 18519,
+    "water_color": 965020,
+    "water_fog_color": 15949,
+    "grass_color": 5881984,
+    "foliage_color": 2852247
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:patch_grass_plain",
+      "minecraft:patch_tall_grass_2",
+      "minecraft:flower_forest_flowers",
+      "minecraft:flower_flower_forest",
+      "minecraft:trees_birch_and_oak"
+    ],
+    []
+  ]
+}

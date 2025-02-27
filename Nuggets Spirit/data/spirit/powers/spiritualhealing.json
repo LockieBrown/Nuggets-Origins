@@ -1,0 +1,22 @@
+{
+	"type": "origins:active_self",
+	"key": {
+		"key": "key.origins.secondary_active"
+	},
+	"entity_action": {
+		"type": "origins:spawn_effect_cloud",
+		"radius": 5.0,
+		"wait_time": 40,
+		"effect": {
+			"effect": "minecraft:regeneration",
+			"amplifier": 3,
+			"duration": 100
+		},
+		"cooldown": 1,
+		"hudrender": {
+			"should_render": true,
+			"sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+			"bar_index": "5"
+		}
+	}
+}
