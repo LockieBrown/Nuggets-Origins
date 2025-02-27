@@ -1,37 +1,37 @@
 {
-  "type": "minecraft:overworld",
+  "type": "spirit:spirit_world",
   "generator": {
-    "type": "minecraft:noise",
-    "seed": 1,
-    "settings": "minecraft:floating_islands",
     "biome_source": {
-      "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "minecraft:flower_forest",
+          "biome": "spirit:plains",
           "parameters": {
-            "temperature": 0,
-            "humidity": 0,
-            "continentalness": 0,
-            "erosion": 1,
-            "weirdness": 0,
+            "erosion": 0,
             "depth": 0,
-            "offset": 0
+            "weirdness": 0,
+            "offset": 0,
+            "temperature": -0.75,
+            "humidity": 0,
+            "continentalness": 0
           }
         },
         {
-          "biome": "minecraft:meadow",
+          "biome": "spirit:forest",
           "parameters": {
-            "temperature": 0,
-            "humidity": 0,
-            "continentalness": 0,
-            "erosion": -0.5,
-            "weirdness": 0,
+            "erosion": 0,
             "depth": 0,
-            "offset": 0
+            "weirdness": 0,
+            "offset": 0,
+            "temperature": 1,
+            "humidity": 0,
+            "continentalness": 0
           }
         }
-      ]
-    }
+      ],
+      "type": "minecraft:multi_noise"
+    },
+    "seed": 0,
+    "settings": "spirit:spirit_world",
+    "type": "minecraft:noise"
   }
 }

@@ -2,14 +2,15 @@
   "temperature": 0,
   "downfall": 0,
   "has_precipitation": false,
-  "creature_spawn_probability": 1,
+  "temperature_modifier": "none",
   "effects": {
     "sky_color": 7746,
-    "fog_color": 7746,
+    "fog_color": 4649,
     "water_color": 21125,
-    "water_fog_color": 0,
-    "grass_color": 1873794,
-    "foliage_color": 1873794,
+    "water_fog_color": 9016,
+    "grass_color": 6400131,
+    "foliage_color": 1268337,
+    "grass_color_modifier": "none",
     "particle": {
       "options": {
         "type": "minecraft:soul_fire_flame"
@@ -35,7 +36,7 @@
       "minecraft:patch_tall_grass_2",
       "minecraft:flower_forest_flowers",
       "minecraft:flower_flower_forest",
-      "minecraft:trees_plains"
+      "minecraft:trees_water"
     ],
     []
   ]

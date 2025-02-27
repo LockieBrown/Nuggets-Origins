@@ -1,0 +1,58 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:if_else",
+		"condition": {
+			"type": "origins:dimension",
+			"dimension": "minecraft:overworld"
+		},
+		"if_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "execute as @e[distance=..1] in spirit:spirit_world run tp ~ 200 ~"
+				},
+				{
+					"type": "origins:apply_effect",
+					"effect": {
+						"effect": "minecraft:slow_falling",
+						"duration": 600,
+						"show_particles": false,
+						"show_icon": true
+					}
+				}
+			]
+			
+		},
+		"else_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "execute as @e[distance=..1] in minecraft:overworld run tp ~ 200 ~"
+				},
+				{
+					"type": "origins:apply_effect",
+					"effect": {
+						"effect": "minecraft:slow_falling",
+						"duration": 600,
+						"show_particles": false,
+						"show_icon": true
+					}
+				}
+			]
+			
+		}
+	},
+	"key": {
+		"key": "key.origins.tertiary_active"
+	},
+	"cooldown": 120,
+	"hud_render": {
+		"should_render": true,
+		"bar_index": 6
+	},
+	"name": "Spiritual Dimension Traversal",
+	"description": "You can travel between your homeland and the overworld"
+}
