@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:light_blue_stained_glass"
+      },
+      "title": "Spirit",
+      "description": "Choose the spirit origin",
+      "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "chose_spirit": {
+        "trigger": "origins:chose_origin",
+        "conditions": {
+          "origin": "spirit:spirit"
+        }
+      }
+    }
+  }
