@@ -3,19 +3,20 @@
   "downfall": 0,
   "has_precipitation": false,
   "temperature_modifier": "none",
+  "creature_spawn_probability": 0.9999,
   "effects": {
-    "sky_color": 7746,
-    "fog_color": 4649,
-    "water_color": 21125,
-    "water_fog_color": 9016,
-    "grass_color": 6400131,
-    "foliage_color": 1268337,
+    "sky_color": 8388608,
+    "fog_color": 5046272,
+    "water_color": 5248534,
+    "water_fog_color": 4001808,
+    "grass_color": 3680543,
+    "foliage_color": 3809053,
     "grass_color_modifier": "none",
     "particle": {
       "options": {
-        "type": "minecraft:soul_fire_flame"
+        "type": "minecraft:ash"
       },
-      "probability": 0.001
+      "probability": 5.0
     }
   },
   "spawners": {
@@ -23,10 +24,16 @@
     "creature": [],
     "ambient": [
       {
-        "type": "minecraft:allay",
+        "type": "minecraft:vex",
         "weight": 100,
         "minCount": 1,
         "maxCount": 2
+      },
+      {
+        "type": "minecraft:phantom",
+        "weight": 50,
+        "minCount": 3,
+        "maxCount": 7
       }
     ],
     "water_creature": [],
@@ -36,8 +43,12 @@
     "axolotls": []
   },
   "spawn_costs": {
-    "minecraft:allay": {
-      "energy_budget": 2.0,
+    "minecraft:vex": {
+      "energy_budget": 3.0,
+      "charge": 1.0
+    },
+    "minecraft:phantom": {
+      "energy_budget": 1.5,
       "charge": 1.0
     }
   },
@@ -52,13 +63,7 @@
     [],
     [],
     [],
-    [
-      "minecraft:patch_grass_plain",
-      "minecraft:patch_tall_grass_2",
-      "minecraft:flower_forest_flowers",
-      "minecraft:flower_flower_forest",
-      "minecraft:trees_water"
-    ],
+    [],
     []
   ]
 }

@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"skinwalker:passive/camel/colour",
+		"skinwalker:passive/camel/size",
+        "skinwalker:passive/camel/on_select",
+        "skinwalker:passive/camel/dash",
+        "skinwalker:passive/camel/effect",
+        "skinwalker:passive/camel/ride",
+        "skinwalker:passive/camel/temperature"
+	],
+	"icon": "minecraft:camel_spawn_egg",
+	"order": 10,
+	"impact": 2,
+	"name": "Camel",
+	"description": "Camel"
+}

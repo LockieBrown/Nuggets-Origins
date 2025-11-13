@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "skinwalker:passive/rabbit/health",
+        "skinwalker:passive/rabbit/colour",
+        "skinwalker:passive/rabbit/size",
+		"skinwalker:passive/rabbit/on_select"
+    ],
+    "icon": "minecraft:rabbit_foot",
+    "order": 10,
+    "impact": 1,
+    "name": "Rabbit",
+    "description": "you are a rabbit"
+}

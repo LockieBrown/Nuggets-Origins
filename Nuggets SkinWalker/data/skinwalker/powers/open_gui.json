@@ -1,0 +1,43 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:execute_command",
+                        "command": "origin gui @s origins:skins"
+                    },
+                    {
+                        "type": "origins:change_resource",
+                        "resource": "skinwalker:has_origin",
+                        "operation": "set",
+                        "change": 0
+                    }
+                ]
+            },
+            {
+                "type": "origins:delay",
+                "ticks": 10,
+                "action": {
+                    "type": "origins:if_else",
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "skinwalker:has_origin",
+                        "comparison": "==",
+                        "compare_to": 0
+                    },
+                    "if_action": {
+                        "type": "origins:execute_command",
+                        "command": "origin gui @s origins:skins"
+                    }
+                }
+            }
+        ]
+    },
+    "key": {
+        "key": "key.origins.primary_active"
+    }
+}

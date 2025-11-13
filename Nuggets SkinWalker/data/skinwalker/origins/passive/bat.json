@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"skinwalker:passive/bat/on_select",
+		"skinwalker:passive/bat/blindness",
+		"skinwalker:passive/bat/colour",
+		"skinwalker:passive/bat/health",
+		"skinwalker:passive/bat/size",
+		"skinwalker:passive/bat/flight"
+	],
+	"icon": "minecraft:black_candle",
+	"order": 10,
+	"impact": 2,
+	"name": "bat",
+	"description": "bat"
+}

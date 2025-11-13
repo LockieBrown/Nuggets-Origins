@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"skinwalker:neutral/fox/on_select",
+		"skinwalker:neutral/fox/colour",
+		"skinwalker:neutral/fox/size",
+		"skinwalker:neutral/fox/health"
+	],
+	"icon": "minecraft:sweet_berries",
+	"order": 10,
+	"impact": 2,
+	"name": "fox",
+	"description": "what da fox say?"
+}

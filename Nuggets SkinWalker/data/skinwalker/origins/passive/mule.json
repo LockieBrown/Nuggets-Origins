@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"skinwalker:passive/mule/ride",
+		"skinwalker:passive/mule/diet",
+		"skinwalker:passive/mule/on_select",
+		"skinwalker:passive/mule/effect",
+		"skinwalker:passive/mule/effect2",
+		"skinwalker:passive/mule/storage"
+	],
+	"icon": "minecraft:barrier",
+	"order": 10,
+	"impact": 2,
+	"name": "Mule",
+	"description": "moole"
+}

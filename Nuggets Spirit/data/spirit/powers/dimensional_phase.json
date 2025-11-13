@@ -14,13 +14,8 @@
 					"command": "execute as @e[distance=..1] in spirit:spirit_world run tp ~ 200 ~"
 				},
 				{
-					"type": "origins:apply_effect",
-					"effect": {
-						"effect": "minecraft:slow_falling",
-						"duration": 600,
-						"show_particles": false,
-						"show_icon": true
-					}
+					"type": "origins:execute_command",
+					"command": "effect give @e[distance=..1] minecraft:slow_falling 20 0 true"
 				}
 			]
 			
@@ -33,13 +28,8 @@
 					"command": "execute as @e[distance=..1] in minecraft:overworld run tp ~ 200 ~"
 				},
 				{
-					"type": "origins:apply_effect",
-					"effect": {
-						"effect": "minecraft:slow_falling",
-						"duration": 600,
-						"show_particles": false,
-						"show_icon": true
-					}
+					"type": "origins:execute_command",
+					"command": "effect give @e[distance=..1] minecraft:slow_falling 20 0 true"
 				}
 			]
 			

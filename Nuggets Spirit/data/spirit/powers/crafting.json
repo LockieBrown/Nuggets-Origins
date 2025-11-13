@@ -1,0 +1,40 @@
+{
+    "type": "origins:recipe",
+    "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "id": "spirit:binding_the_book_of_the_old_ones",
+        "ingredients": [
+            {
+                "item": "kubejs:lost_page_1"
+            },
+            {
+                "item": "kubejs:lost_page_2"
+            },
+            {
+                "item": "kubejs:lost_page_3"
+            },
+            {
+                "item": "kubejs:lost_page_4"
+            },
+            {
+                "item": "kubejs:lost_page_5"
+            },
+            {
+                "item": "kubejs:lost_page_6"
+            },
+            {
+                "item": "kubejs:lost_page_7"
+            },
+            {
+                "item": "kubejs:lost_page_8"
+            },
+            {
+                "item": "kubejs:lost_page_9"
+            }
+        ],
+        "result": {
+            "item": "kubejs:book_of_the_old_ones",
+            "count": 1
+        }
+    }
+}

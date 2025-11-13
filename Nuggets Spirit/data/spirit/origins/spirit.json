@@ -5,7 +5,10 @@
 		"spirit:charge",
 		"spirit:dimensional_phase",
 		"spirit:phasing",
-		"spirit:colour"
+		"spirit:colour",
+		"spirit:crafting",
+		"spirit:loot",
+		"spirit:add_powers"
 	],
 	"icon": "minecraft:light_blue_stained_glass",
 	"order": 10,

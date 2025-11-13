@@ -1,0 +1,16 @@
+{
+	"powers": [
+        "skinwalker:passive/donkey/colour",
+        "skinwalker:passive/donkey/size",
+        "skinwalker:passive/donkey/slowness",
+        "skinwalker:passive/donkey/storage",
+		"skinwalker:passive/donkey/on_select",
+		"skinwalker:passive/donkey/ride",
+		"skinwalker:passive/donkey/diet"
+	],
+	"icon": "minecraft:leather",
+	"order": 10,
+	"impact": 2,
+	"name": "Donkey",
+	"description": "A form of the skinwalker using a donkies skin"
+}

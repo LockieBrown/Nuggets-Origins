@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"skinwalker:neutral/bee/on_select",
+		"skinwalker:neutral/bee/colour",
+		"skinwalker:neutral/bee/flight",
+		"skinwalker:neutral/bee/health",
+		"skinwalker:neutral/bee/poison",
+		"skinwalker:neutral/bee/size"
+	],
+	"icon": "minecraft:honeycomb",
+	"order": 10,
+	"impact": 3,
+	"name": "Bee",
+	"description": "Bee"
+}

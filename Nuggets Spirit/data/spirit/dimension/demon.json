@@ -1,0 +1,25 @@
+{
+  "type": "spirit:demon",
+  "generator": {
+    "biome_source": {
+      "biomes": [
+        {
+          "biome": "spirit:demon",
+          "parameters": {
+            "erosion": 0,
+            "depth": 0,
+            "weirdness": 0,
+            "offset": 0,
+            "temperature": -0.75,
+            "humidity": 0,
+            "continentalness": 0
+          }
+        }
+      ],
+      "type": "minecraft:multi_noise"
+    },
+    "seed": 0,
+    "settings": "spirit:demon",
+    "type": "minecraft:noise"
+  }
+}

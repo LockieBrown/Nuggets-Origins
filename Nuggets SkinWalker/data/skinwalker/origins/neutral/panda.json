@@ -1,0 +1,14 @@
+{
+    "powers": [
+        "skinwalker:passive/panda/effect",
+        "skinwalker:passive/panda/colour",
+        "skinwalker:passive/panda/size",
+		"skinwalker:passive/panda/on_select"
+
+    ],
+    "icon": "minecraft:bamboo",
+    "order": 10,
+    "impact": 1,
+    "name": "Panda",
+    "description": "you are a panda"
+}

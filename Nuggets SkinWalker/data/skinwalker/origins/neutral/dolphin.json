@@ -1,0 +1,16 @@
+{
+	"powers": [
+        "skinwalker:neutral/dolphin/colour",
+        "skinwalker:neutral/dolphin/size",
+        "skinwalker:neutral/dolphin/health",
+		"skinwalker:neutral/dolphin/on_select",
+		"skinwalker:neutral/dolphin/air_water_bars",
+		"skinwalker:neutral/dolphin/effect",
+		"skinwalker:neutral/dolphin/water_breathing"
+	],
+	"icon": "minecraft:barrier",
+	"order": 10,
+	"impact": 2,
+	"name": "Dolphin",
+	"description": "dolp'n"
+}

@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "item": "kubejs:lost_page_9"
+        },
+        "title": {
+            "text": "Page 9",
+            "color": "#ADD8E6",
+            "bold": true
+        },
+        "description": {
+            "text": "You found the ninth lost page of the old ones"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "collected_page": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["kubejs:lost_page_9"]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["collected_page"]
+    ],
+    "parent": "spirit:spirit/root"
+}

@@ -1,0 +1,16 @@
+{
+    "powers": [
+        "skinwalker:passive/chicken/fire_damage",
+        "skinwalker:passive/chicken/health",
+        "skinwalker:passive/chicken/colour",
+        "skinwalker:passive/chicken/size",
+        "skinwalker:passive/chicken/slowfalling",
+		"skinwalker:passive/chicken/weak_arms",
+		"skinwalker:passive/chicken/on_select"
+    ],
+    "icon": "minecraft:feather",
+    "order": 10,
+    "impact": 1,
+    "name": "Chicken",
+    "description": "you are a chicken"
+}

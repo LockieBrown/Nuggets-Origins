@@ -1,0 +1,147 @@
+{
+    "type": "origins:multiple",
+    "plains_house": {
+        "type": "origins:replace_loot_table",
+        "replace": {
+            "minecraft:chests/village/village_plains_house": "spirit:village_plains"
+        },
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "spirit:spirit/found_page_1",
+            "inverted": true
+        }
+    },
+    "desert_house": {
+        "type": "origins:replace_loot_table",
+        "replace": {
+            "minecraft:chests/village/village_desert_house": "spirit:village_desert"
+        },
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "spirit:spirit/found_page_1",
+            "inverted": true
+        }
+    },
+    "savanna_house": {
+        "type": "origins:replace_loot_table",
+        "replace": {
+            "minecraft:chests/village/village_savanna_house": "spirit:village_savanna"
+        },
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "spirit:spirit/found_page_1",
+            "inverted": true
+        }
+    },
+    "snowy_house": {
+        "type": "origins:replace_loot_table",
+        "replace": {
+            "minecraft:chests/village/village_snowy_house": "spirit:village_snowy"
+        },
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "spirit:spirit/found_page_1",
+            "inverted": true
+        }
+    },
+    "taiga_house": {
+        "type": "origins:replace_loot_table",
+        "replace": {
+            "minecraft:chests/village/village_taiga_house": "spirit:village_taiga"
+        },
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "spirit:spirit/found_page_1",
+            "inverted": true
+        }
+    },
+    "nether_fortress": {
+        "type": "origins:replace_loot_table",
+        "replace": {
+            "minecraft:chests/nether_bridge": "spirit:fortress"
+        },
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "spirit:spirit/found_page_2",
+            "inverted": true
+        }
+    },
+    "stronghold_library": {
+        "type": "origins:replace_loot_table",
+        "replace": {
+            "minecraft:chests/stronghold_library": "spirit:stronghold"
+        },
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "spirit:spirit/found_page_3",
+            "inverted": true
+        }
+    },
+    "desert_temple": {
+        "type": "origins:replace_loot_table",
+        "replace": {
+            "minecraft:chests/desert_pyramid": "spirit:desert"
+        },
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "spirit:spirit/found_page_4",
+            "inverted": true
+        }
+    },
+    "end_city": {
+        "type": "origins:replace_loot_table",
+        "replace": {
+            "minecraft:chests/end_city_treasure": "spirit:end"
+        },
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "spirit:spirit/found_page_5",
+            "inverted": true
+        }
+    },
+    "ancient_city": {
+        "type": "origins:replace_loot_table",
+        "replace": {
+            "minecraft:chests/ancient_city": "spirit:ancient_city"
+        },
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "spirit:spirit/found_page_6",
+            "inverted": true
+        }
+    },
+    "jungle_temple": {
+        "type": "origins:replace_loot_table",
+        "replace": {
+            "minecraft:chests/jungle_temple": "spirit:jungle"
+        },
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "spirit:spirit/found_page_7",
+            "inverted": true
+        }
+    },
+    "mansion": {
+        "type": "origins:replace_loot_table",
+        "replace": {
+            "minecraft:chests/woodland_mansion": "spirit:mansion"
+        },
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "spirit:spirit/found_page_8",
+            "inverted": true
+        }
+    },
+    "bastion": {
+        "type": "origins:replace_loot_table",
+        "replace": {
+            "minecraft:chests/bastion_treasure": "spirit:bastion"
+        },
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "spirit:spirit/found_page_9",
+            "inverted": true
+        }
+    }
+
+}

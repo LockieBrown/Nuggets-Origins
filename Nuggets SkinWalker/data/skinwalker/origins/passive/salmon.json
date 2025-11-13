@@ -1,0 +1,17 @@
+{
+    "powers": [
+        "skinwalker:passive/salmon/health",
+        "skinwalker:passive/salmon/colour",
+        "skinwalker:passive/salmon/size",
+		"skinwalker:passive/salmon/on_select",
+        "skinwalker:passive/salmon/on_land",
+        "skinwalker:passive/salmon/water_movement",
+		"origins:water_breathing",
+        "skinwalker:passive/salmon/on_land2"
+    ],
+    "icon": "minecraft:salmon",
+    "order": 10,
+    "impact": 1,
+    "name": "Salmon",
+    "description": "you are a salmon"
+}

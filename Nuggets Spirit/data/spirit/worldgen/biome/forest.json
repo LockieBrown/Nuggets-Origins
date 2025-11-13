@@ -1,5 +1,5 @@
 {
-  "temperature": 0,
+  "temperature": 1,
   "downfall": 0,
   "has_precipitation": false,
   "temperature_modifier": "none",
@@ -18,8 +18,29 @@
       "probability": 0.005
     }
   },
-  "spawners": {},
-  "spawn_costs": {},
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [
+      {
+        "type": "minecraft:allay",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "water_creature": [],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "misc": [],
+    "axolotls": []
+  },
+  "spawn_costs": {
+    "minecraft:allay": {
+      "energy_budget": 2.0,
+      "charge": 1.0
+    }
+  },
   "carvers": {},
   "features": [
     [],
