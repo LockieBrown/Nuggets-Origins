@@ -1,0 +1,15 @@
+{
+	"powers": [
+        "skinwalker:mobs/drowned/colour",
+        "skinwalker:mobs/drowned/effect",
+        "skinwalker:mobs/drowned/hostile",
+		"skinwalker:mobs/drowned/on_select",
+		"skinwalker:mobs/drowned/size",
+		"skinwalker:mobs/drowned/trident"
+	],
+	"icon": "minecraft:drowned_spawn_egg",
+	"order": 10,
+	"impact": 2,
+	"name": "Drowned",
+	"description": "description"
+}

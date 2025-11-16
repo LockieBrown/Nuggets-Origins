@@ -1,0 +1,10 @@
+{
+    "type": "origins:inventory",
+    "title": "Secondary Inventory",
+    "container_type": "chest",
+    "drop_on_death": true,
+    "recoverable": true,
+    "key": {
+        "key": "key.origins.secondary_active"
+    }
+}

@@ -1,0 +1,22 @@
+{
+	"powers": [
+		"skinwalker:mobs/glow_squid/on_select",
+		"skinwalker:mobs/glow_squid/colour",
+		"skinwalker:mobs/glow_squid/health",
+		"skinwalker:mobs/glow_squid/size",
+		"skinwalker:mobs/glow_squid/glowing",
+        "skinwalker:mobs/glow_squid/on_land",
+        "skinwalker:mobs/glow_squid/water_movement",
+		"skinwalker:mobs/glow_squid/dash",
+        "origins:water_breathing",
+        "origins:like_water",
+        "origins:aqua_affinity",
+        "origins:air_from_potions",
+        "origins:aquatic"
+	],
+	"icon": "minecraft:glow_squid_spawn_egg",
+	"order": 10,
+	"impact": 2,
+	"name": "Glow Squid",
+	"description": "Shiny boi"
+}

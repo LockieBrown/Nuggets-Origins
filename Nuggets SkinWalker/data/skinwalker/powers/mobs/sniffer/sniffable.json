@@ -1,0 +1,64 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:chance",
+				"action": {
+					"type": "origins:execute_command",
+					"command": "give @s minecraft:wheat_seeds"
+				},
+				"chance": 0.25
+			},
+			{
+				"type": "origins:chance",
+				"action": {
+					"type": "origins:execute_command",
+					"command": "give @s minecraft:beetroot_seeds"
+				},
+				"chance": 0.25
+			},
+			{
+				"type": "origins:chance",
+				"action": {
+					"type": "origins:execute_command",
+					"command": "give @s minecraft:torchflower_seeds"
+				},
+				"chance": 0.25
+			},
+			{
+				"type": "origins:chance",
+				"action": {
+					"type": "origins:execute_command",
+					"command": "give @s minecraft:pitcher_pod"
+				},
+				"chance": 0.25
+			},
+			{
+				"type": "origins:chance",
+				"action": {
+					"type": "origins:execute_command",
+					"command": "give @s minecraft:melon_seeds"
+				},
+				"chance": 0.25
+			},
+			{
+				"type": "origins:chance",
+				"action": {
+					"type": "origins:execute_command",
+					"command": "give @s minecraft:pumpkin_seeds"
+				},
+				"chance": 0.25
+			}
+		]
+	},
+	"cooldown": 100,
+	"hud_render": {
+		"should_render": false
+	},
+	"key": {
+		"key": "key.origins.secondary_active",
+		"continuous": true
+	}
+}

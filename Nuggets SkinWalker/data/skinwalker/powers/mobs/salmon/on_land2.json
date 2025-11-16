@@ -1,0 +1,15 @@
+{
+    "type": "origins:action_over_time",
+    "interval": 1,
+    "entity_action": {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.salmon.flop",
+        "volume": 4
+    },
+    "condition": {
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:water",
+        "comparison": "==",
+        "compare_to": 0
+    }
+}

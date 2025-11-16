@@ -1,0 +1,22 @@
+{
+    "powers": [
+        "skinwalker:mobs/cod/health",
+        "skinwalker:mobs/cod/colour",
+        "skinwalker:mobs/cod/size",
+		"skinwalker:mobs/cod/on_select",
+        "skinwalker:mobs/cod/cold_ocean_buff",
+        "skinwalker:mobs/cod/water_movement",
+        "skinwalker:mobs/cod/on_land",
+        "skinwalker:mobs/cod/on_land2",
+        "origins:water_breathing",
+        "origins:like_water",
+        "origins:aqua_affinity",
+        "origins:air_from_potions",
+        "origins:aquatic"
+    ],
+    "icon": "minecraft:cod_spawn_egg",
+    "order": 10,
+    "impact": 2,
+    "name": "Cod",
+    "description": "you are a cod"
+}

@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"skinwalker:mobs/horse/on_select",
+		"skinwalker:mobs/horse/colour",
+		"skinwalker:mobs/horse/diet",
+		"skinwalker:mobs/horse/ride",
+		"skinwalker:mobs/horse/size"
+	],
+	"icon": "minecraft:horse_spawn_egg",
+	"order": 10,
+	"impact": 1,
+	"name": "Horse",
+	"description": "Horse"
+}

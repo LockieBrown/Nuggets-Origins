@@ -1,0 +1,15 @@
+{
+    "powers": [
+        "skinwalker:mobs/rabbit/health",
+        "skinwalker:mobs/rabbit/colour",
+        "skinwalker:mobs/rabbit/size",
+		"skinwalker:mobs/rabbit/on_select",
+		"skinwalker:mobs/rabbit/effect",
+		"skinwalker:mobs/rabbit/effect2"
+    ],
+    "icon": "minecraft:rabbit_spawn_egg",
+    "order": 10,
+    "impact": 1,
+    "name": "Rabbit",
+    "description": "you are a rabbit"
+}

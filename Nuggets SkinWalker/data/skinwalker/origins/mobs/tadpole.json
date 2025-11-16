@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"skinwalker:mobs/tadpole/colour",
+		"skinwalker:mobs/tadpole/health",
+		"skinwalker:mobs/tadpole/on_select",
+		"skinwalker:mobs/tadpole/size",
+		"skinwalker:mobs/tadpole/water_movement",
+		"skinwalker:mobs/tadpole/transform"
+	],
+	"icon": "minecraft:tadpole_spawn_egg",
+	"order": 10,
+	"impact": 2,
+	"name": "Tadpole",
+	"description": "description"
+}

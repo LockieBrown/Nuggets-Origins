@@ -1,0 +1,14 @@
+{
+    "powers": [
+        "skinwalker:mobs/trader_llama/summon_trader",
+        "skinwalker:mobs/trader_llama/colour",
+        "skinwalker:mobs/trader_llama/size",
+		"skinwalker:mobs/trader_llama/on_select"
+
+    ],
+    "icon": "minecraft:trader_llama_spawn_egg",
+    "order": 10,
+    "impact": 1,
+    "name": "Trader Llama",
+    "description": "you are a trader llama"
+}

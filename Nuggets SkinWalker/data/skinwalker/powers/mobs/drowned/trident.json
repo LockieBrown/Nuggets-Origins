@@ -1,0 +1,19 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:fire_projectile",
+        "count": 1,
+        "entity_type": "minecraft:trident",
+        "speed": 1,
+         "projectile_action": {
+            "type": "origins:execute_command",
+            "command": "data modify entity @s pickup set value 0b"
+        }
+    },
+    "cooldown": 200,
+    "hud_render": {
+        "bar_index": 1,
+        "sprite_location": "origins:textures/gui/resource_bar.png"
+    },
+    "key": "key.origins.secondary_active"
+}

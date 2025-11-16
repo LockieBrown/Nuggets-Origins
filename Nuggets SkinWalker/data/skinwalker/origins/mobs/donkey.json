@@ -1,0 +1,16 @@
+{
+	"powers": [
+        "skinwalker:mobs/donkey/colour",
+        "skinwalker:mobs/donkey/size",
+        "skinwalker:mobs/donkey/slowness",
+        "skinwalker:mobs/donkey/storage",
+		"skinwalker:mobs/donkey/on_select",
+		"skinwalker:mobs/donkey/ride",
+		"skinwalker:mobs/donkey/diet"
+	],
+	"icon": "minecraft:donkey_spawn_egg",
+	"order": 10,
+	"impact": 2,
+	"name": "Donkey",
+	"description": "A form of the skinwalker using a donkies skin"
+}

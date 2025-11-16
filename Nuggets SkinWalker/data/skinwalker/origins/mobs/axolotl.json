@@ -1,0 +1,21 @@
+{
+	"powers": [
+		"skinwalker:mobs/axolotl/colour",
+		"skinwalker:mobs/axolotl/health",
+        "skinwalker:mobs/axolotl/on_select",
+        "skinwalker:mobs/axolotl/on_land",
+        "skinwalker:mobs/axolotl/size",
+        "skinwalker:mobs/axolotl/water_movement",
+		"skinwalker:mobs/axolotl/regeneration",
+		"skinwalker:mobs/axolotl/effect",
+        "origins:like_water",
+        "origins:aqua_affinity",
+        "origins:air_from_potions",
+        "origins:aquatic"
+	],
+	"icon": "minecraft:axolotl_spawn_egg",
+	"order": 10,
+	"impact": 2,
+	"name": "Axolotl",
+	"description": "Axolotl"
+}

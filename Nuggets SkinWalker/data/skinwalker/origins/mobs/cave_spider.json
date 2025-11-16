@@ -1,0 +1,18 @@
+{
+	"powers": [
+		"skinwalker:mobs/cave_spider/on_select",
+		"skinwalker:mobs/cave_spider/colour",
+		"skinwalker:mobs/cave_spider/health",
+		"skinwalker:mobs/cave_spider/hostile",
+		"skinwalker:mobs/cave_spider/size",
+		"skinwalker:mobs/cave_spider/poison",
+		"skinwalker:mobs/cave_spider/sky",
+		"skinwalker:mobs/cave_spider/wall_climb",
+		"skinwalker:mobs/cave_spider/shader"
+	],
+	"icon": "minecraft:spider_eye",
+	"order": 10,
+	"impact": 3,
+	"name": "cave spider",
+	"description": "cave spider"
+}

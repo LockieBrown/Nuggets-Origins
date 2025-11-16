@@ -1,0 +1,15 @@
+{
+    "powers": [
+        "skinwalker:mobs/mooshroom/health",
+        "skinwalker:mobs/mooshroom/colour",
+        "skinwalker:mobs/mooshroom/size",
+		"skinwalker:mobs/mooshroom/on_select",
+        "skinwalker:mobs/mooshroom/soupable",
+        "skinwalker:mobs/mooshroom/weak_arms"
+    ],
+    "icon": "minecraft:mooshroom_spawn_egg",
+    "order": 10,
+    "impact": 1,
+    "name": "Mooshroom",
+    "description": "you are a mooshroom"
+}

@@ -1,0 +1,14 @@
+{
+    "powers": [
+        "skinwalker:mobs/panda/effect",
+        "skinwalker:mobs/panda/colour",
+        "skinwalker:mobs/panda/size",
+		"skinwalker:mobs/panda/on_select"
+
+    ],
+    "icon": "minecraft:panda_spawn_egg",
+    "order": 10,
+    "impact": 1,
+    "name": "Panda",
+    "description": "you are a panda"
+}

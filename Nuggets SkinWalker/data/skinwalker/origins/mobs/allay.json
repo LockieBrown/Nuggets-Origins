@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"skinwalker:mobs/allay/on_select",
+		"skinwalker:mobs/allay/colour",
+		"skinwalker:mobs/allay/health",
+		"skinwalker:mobs/allay/music_buff",
+		"skinwalker:mobs/allay/size",
+		"skinwalker:mobs/allay/vex_transform",
+		"skinwalker:mobs/allay/flight"
+	],
+	"icon": "minecraft:allay_spawn_egg",
+	"order": 10,
+	"impact": 2,
+	"name": "allay",
+	"description": "allay"
+}

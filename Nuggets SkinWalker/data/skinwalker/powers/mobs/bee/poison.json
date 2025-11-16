@@ -1,0 +1,25 @@
+{
+    "type": "apoli:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:fire_projectile",
+                "count": 1,
+                "divergence": 1,
+                "entity_type": "minecraft:arrow",
+                "speed": 1,
+                "tag": "{pickup:0b,CustomPotionEffects:[{Id:19,Amplifier:10,Duration:600}]}"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "origin set @s origins:skins skinwalker:skinwalker"
+            }
+        ]
+    },
+    "key": {
+        "key": "key.origins.secondary_active"
+    },
+    "name": "poison strike",
+    "description": "WARNING: using this ability will transform you back to your origininal form! Because the stinger is connected to the bees skin you have found a way to launch it at enemies, but doing so will damage the skin beyond repair"
+}

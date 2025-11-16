@@ -1,0 +1,9 @@
+{
+    "type": "origins:active_self",
+    "key": "key.origins.secondary_active",
+    "entity_action": {
+        "type": "origins:fire_projectile",
+        "entity_type": "minecraft:snowball",
+        "divergence": 1.5
+    }
+}

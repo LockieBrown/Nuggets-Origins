@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"skinwalker:mobs/creeper/on_select",
+		"skinwalker:mobs/creeper/auto_explode",
+		"skinwalker:mobs/creeper/colour",
+		"skinwalker:mobs/creeper/explode",
+		"skinwalker:mobs/creeper/hostile",
+		"skinwalker:mobs/creeper/health",
+		"skinwalker:mobs/creeper/size"
+	],
+	"icon": "minecraft:gunpowder",
+	"order": 10,
+	"impact": 2,
+	"name": "Creeper",
+	"description": "Creeper"
+}

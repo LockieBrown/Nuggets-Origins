@@ -1,0 +1,16 @@
+{
+	"powers": [
+        "skinwalker:mobs/dolphin/colour",
+        "skinwalker:mobs/dolphin/size",
+        "skinwalker:mobs/dolphin/health",
+		"skinwalker:mobs/dolphin/on_select",
+		"skinwalker:mobs/dolphin/air_water_bars",
+		"skinwalker:mobs/dolphin/effect",
+		"skinwalker:mobs/dolphin/water_breathing"
+	],
+	"icon": "minecraft:dolphin_spawn_egg",
+	"order": 10,
+	"impact": 2,
+	"name": "Dolphin",
+	"description": "dolp'n"
+}

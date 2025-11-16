@@ -17,23 +17,6 @@
                         "change": 0
                     }
                 ]
-            },
-            {
-                "type": "origins:delay",
-                "ticks": 10,
-                "action": {
-                    "type": "origins:if_else",
-                    "condition": {
-                        "type": "origins:resource",
-                        "resource": "skinwalker:has_origin",
-                        "comparison": "==",
-                        "compare_to": 0
-                    },
-                    "if_action": {
-                        "type": "origins:execute_command",
-                        "command": "origin gui @s origins:skins"
-                    }
-                }
             }
         ]
     },

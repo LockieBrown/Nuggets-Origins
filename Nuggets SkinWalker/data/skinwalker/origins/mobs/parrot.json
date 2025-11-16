@@ -1,0 +1,18 @@
+{
+    "powers": [
+        "skinwalker:mobs/parrot/health",
+        "skinwalker:mobs/parrot/colour",
+        "skinwalker:mobs/parrot/size",
+	    "skinwalker:mobs/parrot/on_select",
+        "skinwalker:mobs/parrot/cookie_damage",
+        "skinwalker:mobs/parrot/cookie_death",
+        "skinwalker:mobs/parrot/fire_damage",
+	    "skinwalker:mobs/parrot/flight",
+	    "skinwalker:mobs/parrot/ride"
+	],
+	"icon": "minecraft:parrot_spawn_egg",
+	"order": 10,
+	"impact": 2,
+	"name": "par-rot",
+	"description": "brain-rot"
+}

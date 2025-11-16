@@ -1,0 +1,12 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "execute at @s run fill ~ ~ ~ ~ ~ ~ snow replace air"
+  },
+  "condition": {
+    "type": "origins:block_collision",
+    "offset_y": -0.1
+  },
+  "interval": 1
+}

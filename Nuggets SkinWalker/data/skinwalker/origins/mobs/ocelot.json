@@ -1,0 +1,15 @@
+{
+    "powers": [
+        "skinwalker:mobs/ocelot/health",
+        "skinwalker:mobs/ocelot/colour",
+		"skinwalker:mobs/ocelot/on_select",
+        "skinwalker:mobs/ocelot/diet",
+		"skinwalker:mobs/ocelot/size",
+		"origins:scare_creepers"
+	],
+	"icon": "minecraft:ocelot_spawn_egg",
+	"order": 10,
+	"impact": 2,
+	"name": "Ocelot",
+	"description": "Ocelot"
+}

@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"skinwalker:mobs/blaze/colour",
+		"skinwalker:mobs/blaze/effect",
+		"skinwalker:mobs/blaze/flying",
+		"skinwalker:mobs/blaze/hostile",
+		"skinwalker:mobs/blaze/on_select",
+		"skinwalker:mobs/blaze/size",
+		"skinwalker:mobs/blaze/flight_effects"
+	],
+	"icon": "minecraft:blaze_spawn_egg",
+	"order": 10,
+	"impact": 2,
+	"name": "Blaze",
+	"description": "description"
+}

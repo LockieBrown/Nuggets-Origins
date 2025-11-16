@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"skinwalker:mobs/camel/colour",
+		"skinwalker:mobs/camel/size",
+        "skinwalker:mobs/camel/on_select",
+        "skinwalker:mobs/camel/dash",
+        "skinwalker:mobs/camel/effect",
+        "skinwalker:mobs/camel/ride",
+        "skinwalker:mobs/camel/temperature"
+	],
+	"icon": "minecraft:camel_spawn_egg",
+	"order": 10,
+	"impact": 2,
+	"name": "Camel",
+	"description": "Camel"
+}

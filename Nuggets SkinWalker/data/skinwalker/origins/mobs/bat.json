@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"skinwalker:mobs/bat/on_select",
+		"skinwalker:mobs/bat/blindness",
+		"skinwalker:mobs/bat/colour",
+		"skinwalker:mobs/bat/health",
+		"skinwalker:mobs/bat/size",
+		"skinwalker:mobs/bat/flight"
+	],
+	"icon": "minecraft:bat_spawn_egg",
+	"order": 10,
+	"impact": 2,
+	"name": "bat",
+	"description": "bat"
+}

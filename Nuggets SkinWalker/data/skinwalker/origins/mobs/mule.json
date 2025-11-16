@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"skinwalker:mobs/mule/ride",
+		"skinwalker:mobs/mule/diet",
+		"skinwalker:mobs/mule/on_select",
+		"skinwalker:mobs/mule/effect",
+		"skinwalker:mobs/mule/effect2",
+		"skinwalker:mobs/mule/storage"
+	],
+	"icon": "minecraft:mule_spawn_egg",
+	"order": 10,
+	"impact": 2,
+	"name": "Mule",
+	"description": "moole"
+}

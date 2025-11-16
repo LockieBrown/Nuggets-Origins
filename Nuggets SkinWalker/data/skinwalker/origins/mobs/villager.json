@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "skinwalker:mobs/villager/colour",
+        "skinwalker:mobs/villager/size",
+		"skinwalker:mobs/villager/on_select",
+		"skinwalker:mobs/villager/effect"
+    ],
+    "icon": "minecraft:villager_spawn_egg",
+    "order": 10,
+    "impact": 1,
+    "name": "Villager",
+    "description": "you are a villager"
+}

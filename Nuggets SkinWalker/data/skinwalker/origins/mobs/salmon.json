@@ -1,0 +1,22 @@
+{
+    "powers": [
+        "skinwalker:mobs/salmon/health",
+        "skinwalker:mobs/salmon/colour",
+        "skinwalker:mobs/salmon/size",
+		"skinwalker:mobs/salmon/on_select",
+        "skinwalker:mobs/salmon/on_land",
+        "skinwalker:mobs/salmon/water_movement",
+        "skinwalker:mobs/salmon/on_land2",
+        "skinwalker:mobs/salmon/river_buff",
+        "origins:water_breathing",
+        "origins:like_water",
+        "origins:aqua_affinity",
+        "origins:air_from_potions",
+        "origins:aquatic"
+    ],
+    "icon": "minecraft:salmon_spawn_egg",
+    "order": 10,
+    "impact": 2,
+    "name": "Salmon",
+    "description": "you are a salmon"
+}

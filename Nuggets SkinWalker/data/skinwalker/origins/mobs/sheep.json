@@ -1,0 +1,15 @@
+{
+    "powers": [
+        "skinwalker:mobs/sheep/health",
+        "skinwalker:mobs/sheep/fire_damage",
+        "skinwalker:mobs/sheep/colour",
+        "skinwalker:mobs/sheep/on_select",
+        "skinwalker:mobs/sheep/shearable",
+        "skinwalker:mobs/sheep/size"
+    ],
+    "icon": "minecraft:sheep_spawn_egg",
+    "order": 10,
+    "impact": 1,
+    "name": "Sheep",
+    "description": "you are a sheep"
+}

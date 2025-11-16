@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "skinwalker:mobs/pig/health",
+        "skinwalker:mobs/pig/colour",
+        "skinwalker:mobs/pig/size",
+		"skinwalker:mobs/pig/on_select"
+    ],
+    "icon": "minecraft:pig_spawn_egg",
+    "order": 10,
+    "impact": 1,
+    "name": "Pig",
+    "description": "you are a pig"
+}

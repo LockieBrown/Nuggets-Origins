@@ -1,0 +1,19 @@
+{
+    "type": "origins:modify_swim_speed",
+    "modifier": {
+        "operation": "addition",
+        "value": 0.03
+    },
+    "condition": {
+        "type": "origins:biome",
+        "biomes": [
+            "minecraft:cold_ocean",
+            "minecraft:deep_cold_ocean",
+            "minecraft:frozen_ocean",
+            "minecraft:deep_frozen_ocean",
+            "minecraft:frozen_river",
+            "minecraft:ocean",
+            "minecraft:deep_ocean"
+        ]
+    }
+}

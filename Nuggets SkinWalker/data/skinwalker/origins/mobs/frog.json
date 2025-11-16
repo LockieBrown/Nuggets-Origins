@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"skinwalker:mobs/frog/on_select",
+		"skinwalker:mobs/frog/colour",
+		"skinwalker:mobs/frog/effect",
+		"skinwalker:mobs/frog/health",
+		"skinwalker:mobs/frog/pull",
+		"skinwalker:mobs/frog/size",
+		"skinwalker:mobs/frog/water_movement"
+	],
+	"icon": "minecraft:frog_spawn_egg",
+	"order": 10,
+	"impact": 2,
+	"name": "Frog",
+	"description": "Frog"
+}

@@ -1,0 +1,13 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "execute at @s run summon minecraft:wandering_trader"
+    },
+    "cooldown": 6000,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+        "bar_index": 21
+    },
+    "key": "key.origins.secondary_active"
+}

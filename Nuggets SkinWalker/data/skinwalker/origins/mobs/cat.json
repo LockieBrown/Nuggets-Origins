@@ -1,0 +1,19 @@
+{
+	"powers": [
+		"skinwalker:mobs/cat/on_select",
+		"skinwalker:mobs/cat/colour",
+		"skinwalker:mobs/cat/effect",
+		"skinwalker:mobs/cat/health",
+		"skinwalker:mobs/cat/no_fall",
+		"skinwalker:mobs/cat/size",
+		"skinwalker:mobs/cat/unluck",
+		"skinwalker:mobs/cat/weak_arms",
+		"origins:scare_creepers",
+		"skinwalker:mobs/cat/carnivore"
+	],
+	"icon": "minecraft:cat_spawn_egg",
+	"order": 10,
+	"impact": 2,
+	"name": "Cat",
+	"description": "Cat"
+}

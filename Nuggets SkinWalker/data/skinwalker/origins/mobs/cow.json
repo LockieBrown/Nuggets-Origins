@@ -1,0 +1,15 @@
+{
+    "powers": [
+        "skinwalker:mobs/cow/health",
+        "skinwalker:mobs/cow/colour",
+        "skinwalker:mobs/cow/size",
+		"skinwalker:mobs/cow/on_select",
+        "skinwalker:mobs/cow/milkable",
+        "skinwalker:mobs/cow/weak_arms"
+    ],
+    "icon": "minecraft:cow_spawn_egg",
+    "order": 10,
+    "impact": 1,
+    "name": "Cow",
+    "description": "you are a cow"
+}

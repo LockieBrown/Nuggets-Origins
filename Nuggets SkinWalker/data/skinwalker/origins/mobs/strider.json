@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"skinwalker:mobs/strider/colour",
+		"skinwalker:mobs/strider/effect",
+		"skinwalker:mobs/strider/health",
+		"skinwalker:mobs/strider/lava_walk",
+		"skinwalker:mobs/strider/on_select",
+		"skinwalker:mobs/strider/shrooms",
+		"skinwalker:mobs/strider/size"
+	],
+	"icon": "minecraft:strider_spawn_egg",
+	"order": 10,
+	"impact": 2,
+	"name": "Strider",
+	"description": "description"
+}

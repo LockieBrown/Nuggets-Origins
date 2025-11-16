@@ -1,0 +1,17 @@
+{
+	"powers": [
+		"skinwalker:mobs/goat/on_select",
+		"skinwalker:mobs/goat/colour",
+		"skinwalker:mobs/goat/fire_damage",
+		"skinwalker:mobs/goat/health",
+		"skinwalker:mobs/goat/jump_boost",
+		"skinwalker:mobs/goat/dash",
+		"skinwalker:mobs/goat/size",
+		"skinwalker:mobs/goat/prevent_fall_damage"
+	],
+	"icon": "minecraft:goat_horn",
+	"order": 10,
+	"impact": 2,
+	"name": "Goat",
+	"description": "description"
+}

@@ -1,0 +1,31 @@
+{
+    "type": "origins:multiple",
+    "flame_particles": {
+        "type": "origins:particle",
+        "frequency": 1,
+        "count": 10,
+        "particle": "flame",
+        "speed": 0.05,
+        "condition": {
+            "type": "origins:block_collision",
+            "inverted": true,
+            "offset_y": -0.1
+        },
+        "visible_while_invisible": false,
+        "visible_in_first_person": true
+    },
+    "smoke_particles": {
+        "type": "origins:particle",
+        "frequency": 1,
+        "count": 10,
+        "particle": "smoke",
+        "speed": 0.05,
+        "condition": {
+            "type": "origins:block_collision",
+            "inverted": true,
+            "offset_y": -0.1
+        },
+        "visible_while_invisible": false,
+        "visible_in_first_person": true
+    }
+}

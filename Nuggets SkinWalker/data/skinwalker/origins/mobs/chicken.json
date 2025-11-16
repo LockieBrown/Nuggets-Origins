@@ -1,0 +1,16 @@
+{
+    "powers": [
+        "skinwalker:mobs/chicken/fire_damage",
+        "skinwalker:mobs/chicken/health",
+        "skinwalker:mobs/chicken/colour",
+        "skinwalker:mobs/chicken/size",
+        "skinwalker:mobs/chicken/slowfalling",
+		"skinwalker:mobs/chicken/weak_arms",
+		"skinwalker:mobs/chicken/on_select"
+    ],
+    "icon": "minecraft:chicken_spawn_egg",
+    "order": 10,
+    "impact": 1,
+    "name": "Chicken",
+    "description": "you are a chicken"
+}

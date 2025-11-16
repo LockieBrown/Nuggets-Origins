@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"skinwalker:mobs/sniffer/colour",
+		"skinwalker:mobs/sniffer/effect",
+		"skinwalker:mobs/sniffer/health",
+		"skinwalker:mobs/sniffer/on_select",
+		"skinwalker:mobs/sniffer/size",
+		"skinwalker:mobs/sniffer/sniffable"
+	],
+	"icon": "minecraft:sniffer_spawn_egg",
+	"order": 10,
+	"impact": 2,
+	"name": "Sniffer",
+	"description": "description"
+}

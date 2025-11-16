@@ -5,12 +5,11 @@
 		"skinwalker:skin_walker/restrict_armour",
 		"skinwalker:skin_walker/colour",
 		"skinwalker:skin_walker/size",
-		"skinwalker:skin_walker/slow",
-		"skinwalker:on_select"
+		"skinwalker:skin_walker/slow"
 	],
-	"icon": "minecraft:leather",
+	"icon": "minecraft:barrier",
 	"order": 10,
-	"impact": 3,
+	"impact": 0,
 	"name": "Skin Walker",
 	"description": "Your original form"
 }

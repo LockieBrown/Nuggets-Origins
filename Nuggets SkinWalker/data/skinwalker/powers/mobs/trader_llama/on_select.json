@@ -23,7 +23,7 @@
         "entity_action_gained": {
             "type": "origins:change_resource",
             "operation": "add",
-            "resource": "skinwalker:kills_",
+            "resource": "skinwalker:kills_trader_llama",
             "change": -20
         }
     }

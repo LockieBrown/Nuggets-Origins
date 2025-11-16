@@ -1,0 +1,18 @@
+{
+	"powers": [
+		"skinwalker:mobs/slime/colour",
+		"skinwalker:mobs/slime/effect_slowness",
+		"skinwalker:mobs/slime/effect",
+		"skinwalker:mobs/slime/health",
+		"skinwalker:mobs/slime/hostile",
+		"skinwalker:mobs/slime/on_select",
+		"skinwalker:mobs/slime/size",
+		"skinwalker:mobs/slime/fall_damage",
+		"skinwalker:mobs/slime/bounce_on_land"
+	],
+	"icon": "minecraft:slime_block",
+	"order": 10,
+	"impact": 2,
+	"name": "Slime",
+	"description": "Slime"
+}

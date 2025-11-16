@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"skinwalker:mobs/snow_golem/biome_damage",
+		"skinwalker:mobs/snow_golem/colour",
+		"skinwalker:mobs/snow_golem/on_select",
+		"skinwalker:mobs/snow_golem/rain_damage",
+		"skinwalker:mobs/snow_golem/size",
+		"skinwalker:mobs/snow_golem/snowball",
+		"skinwalker:mobs/snow_golem/snow"
+	],
+	"icon": "minecraft:snow_golem_spawn_egg",
+	"order": 10,
+	"impact": 2,
+	"name": "Snow Golem",
+	"description": "description"
+}
