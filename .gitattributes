@@ -1,2 +1,2 @@
-config/*.json linguist-detectable=true
-*.json linguist-language=JavaScript
+*.json linguist-detectable=true
+# *.json linguist-language=JavaScript
